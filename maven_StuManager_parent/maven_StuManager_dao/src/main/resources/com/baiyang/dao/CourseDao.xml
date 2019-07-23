@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.baiyang.dao.CourseDao">
+    <resultMap id="courseMap" type="com.baiyang.domain.Course">
+        <id property="cno" column="CNo"></id>
+        <result property="cname" column="Cname"></result>
+        <result property="ccredit" column="Ccredit"></result>
+        <result property="cclassroom" column="Cclassroom"></result>
+        <collection property="student" ofType="com.baiyang.domain.Student">
+            <id property="sno" column="SNo"/>
+            <result property="sname" column="Sname"/>
+            <result property="spassword" column="Spassword"/>
+            <result property="sclass" column="Sclass"/>
+            <result property="ssex" column="Ssex"/>
+        </collection>
+    </resultMap>
+    <select id="findAllCouByCno" parameterType="Integer" resultType="com.baiyang.domain.Course">
+        select * from course
+    </select>
+    <select id="findAllCou" resultType="com.baiyang.domain.Course">
+        select * from course
+    </select>
+    <select id="findCouBySno" parameterType="Integer" resultMap="courseMap">
+        SELECT course.* FROM course,student,sc WHERE course.CNo=sc.CNo AND student.SNo=sc.SNo AND student.SNo=#{sno}
+    </select>
+    <select id="findScreByCno" parameterType="Integer" resultType="Double">
+        SELECT ccredit FROM course WHERE course.CNo=#{cno}
+    </select>
+    <select id="findCouStuByCno" parameterType="Integer" resultMap="courseMap">
+        SELECT student.*,course.CNo,course.Cname,course.Ccredit FROM course
+ 		LEFT JOIN sc ON sc.CNo=course.CNo
+	 	LEFT JOIN student ON sc.SNo=student.SNo WHERE course.CNo=#{cno}
+    </select>
+    <update id="updateCou" parameterType="com.baiyang.domain.Course">
+        update course set Cname=#{cname},Ccredit=#{ccredit},Cclassroom=#{cclassroom} where CNo=#{cno}
+    </update>
+    <insert id="saveCou" parameterType="com.baiyang.domain.Course">
+        insert into course(Cname,Ccredit,Cclassroom) values(#{cname},#{ccredit},#{cclassroom})
+    </insert>
+    <delete id="deleteCou" parameterType="Integer">
+        delete from course where CNo=#{cno}
+    </delete>
+</mapper>
