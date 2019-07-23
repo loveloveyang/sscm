@@ -1,0 +1,1318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="studentManagement:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1cedc05d-4b54-45a9-8d81-121f782732c5" name="Default Changelist" comment="ssm框架学生管理系统实现登录2">
+      <change afterPath="$PROJECT_DIR$/../springMVC/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVC/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVC/.idea/springMVC.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVC/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVC/.idea/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVC/springMVC/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVC/springMVC/springMVC.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVC/springMVC/src/main/java/com/baiyang/dao/daoImpl/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVC/springMVC/src/main/java/com/baiyang/domain/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVC/springMVC/src/main/java/com/baiyang/servlet/ServletDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springMVC/springMVC/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studentManagement/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studentManagement/src/main/java/com/baiyang/controller/DoLoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studentManagement/src/main/java/com/baiyang/dao/CouDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studentManagement/src/main/java/com/baiyang/dao/QueryDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studentManagement/src/main/java/com/baiyang/dao/ScDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studentManagement/src/main/java/com/baiyang/dao/StuDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studentManagement/src/main/java/com/baiyang/dao/TeaDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studentManagement/src/main/java/com/baiyang/domain/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studentManagement/src/main/java/com/baiyang/domain/QueryResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studentManagement/src/main/java/com/baiyang/domain/Sc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studentManagement/src/main/java/com/baiyang/domain/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studentManagement/src/main/java/com/baiyang/domain/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studentManagement/src/main/java/com/baiyang/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studentManagement/src/main/java/com/baiyang/service/CouService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studentManagement/src/main/java/com/baiyang/service/LoginService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studentManagement/src/main/java/com/baiyang/service/QueryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studentManagement/src/main/java/com/baiyang/service/ScService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studentManagement/src/main/java/com/baiyang/service/StuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studentManagement/src/main/java/com/baiyang/service/serviceImpl/CouServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studentManagement/src/main/java/com/baiyang/service/serviceImpl/LoginServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studentManagement/src/main/java/com/baiyang/service/serviceImpl/QueryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studentManagement/src/main/java/com/baiyang/service/serviceImpl/ScServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studentManagement/src/main/java/com/baiyang/service/serviceImpl/StuServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studentManagement/src/main/resources/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studentManagement/src/main/webapp/WEB-INF/pages/student.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studentManagement/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studentManagement/src/main/webapp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/studentManagement/src/test/java/com/baiyang/daoImpl/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../txManager/txManagerChild/src/main/java/com/baiyang/util/TransactionManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/springMVC_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/springMVC_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/springMVC/target/" />
+    <ignored path="$PROJECT_DIR$/studentManagement/target/" />
+    <ignored path="$PROJECT_DIR$/aop/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/studentManagement/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1226">
+              <caret line="68" column="20" selection-start-line="68" selection-start-column="20" selection-end-line="68" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/studentManagement/src/main/resources/applicationContext.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="453">
+              <caret line="57" column="59" selection-start-line="57" selection-start-column="59" selection-end-line="57" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+        <option value="spring-beans.schema" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>webapp</find>
+      <find>typ</find>
+      <find>springMVC</find>
+      <find>jstl</find>
+      <find>aop</find>
+      <find>junit</find>
+      <find>aspectj</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/springMVC/src/main/java/com/baiyang/service/StuService.java" />
+        <option value="$PROJECT_DIR$/springMVC/src/main/java/com/baiyang/service/ScService.java" />
+        <option value="$PROJECT_DIR$/springMVC/src/main/java/com/baiyang/service/QueryService.java" />
+        <option value="$PROJECT_DIR$/springMVC/src/main/java/com/baiyang/service/CouService.java" />
+        <option value="$PROJECT_DIR$/springMVC/src/main/java/com/baiyang/dao/daoimpl/CouDaoImpl.java" />
+        <option value="$PROJECT_DIR$/springMVC/src/main/java/com/baiyang/dao/daoimpl/QueryDaoImpl.java" />
+        <option value="$PROJECT_DIR$/springMVC/src/main/java/com/baiyang/dao/daoimpl/ScDaoImpl.java" />
+        <option value="$PROJECT_DIR$/springMVC/src/main/java/com/baiyang/dao/daoimpl/StuDaoImpl.java" />
+        <option value="$PROJECT_DIR$/springMVC/src/main/java/com/baiyang/dao/daoimpl/TeaDaoImpl.java" />
+        <option value="$PROJECT_DIR$/springMVC/src/main/java/com/baiyang/dao/CouDaoImpl.java" />
+        <option value="$PROJECT_DIR$/springMVC/src/main/java/com/baiyang/dao/QueryDaoImpl.java" />
+        <option value="$PROJECT_DIR$/springMVC/src/main/java/com/baiyang/dao/ScDaoImpl.java" />
+        <option value="$PROJECT_DIR$/springMVC/src/main/java/com/baiyang/dao/TeaDaoImpl.java" />
+        <option value="$PROJECT_DIR$/springMVC/src/main/java/com/baiyang/service/serviceImpl/StuServiceImpl.java" />
+        <option value="$PROJECT_DIR$/springMVC/src/main/java/com/baiyang/service/serviceImpl/ScServiceImpl.java" />
+        <option value="$PROJECT_DIR$/springMVC/src/main/java/com/baiyang/service/serviceImpl/QueryServiceImpl.java" />
+        <option value="$PROJECT_DIR$/springMVC/src/main/java/com/baiyang/service/serviceImpl/CouServiceImpl.java" />
+        <option value="$PROJECT_DIR$/springMVC/src/main/java/com/baiyang/domain/Teacher.java" />
+        <option value="$PROJECT_DIR$/springMVC/src/main/java/com/baiyang/domain/Student.java" />
+        <option value="$PROJECT_DIR$/springMVC/src/main/java/com/baiyang/domain/QueryResult.java" />
+        <option value="$PROJECT_DIR$/springMVC/src/main/java/com/baiyang/domain/Sc.java" />
+        <option value="$PROJECT_DIR$/springMVC/src/main/java/com/baiyang/domain/Course.java" />
+        <option value="$PROJECT_DIR$/springMVC/src/main/java/com/baiyang/service/LoginService.java" />
+        <option value="$PROJECT_DIR$/springMVC/src/main/webapp/login.jsp" />
+        <option value="$PROJECT_DIR$/springMVC/src/main/java/com/baiyang/domain/User.java" />
+        <option value="$PROJECT_DIR$/springMVC/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/springMVC/src/main/webapp/style_1.css" />
+        <option value="$PROJECT_DIR$/springMVC/src/main/webapp/WEB-INF/stu/student.jsp" />
+        <option value="$PROJECT_DIR$/springMVC/src/main/resources/springmvc.xml" />
+        <option value="$PROJECT_DIR$/springMVC/src/main/java/com/baiyang/dao/StuDaoImpl.java" />
+        <option value="$PROJECT_DIR$/springMVC/src/main/java/com/baiyang/service/serviceImpl/LoginServiceImpl.java" />
+        <option value="$PROJECT_DIR$/springMVC/src/main/java/com/baiyang/controller/DoLoginController.java" />
+        <option value="$PROJECT_DIR$/springMVC/pom.xml" />
+        <option value="$PROJECT_DIR$/studentManagement/src/main/resources/spring-configure.xml" />
+        <option value="$PROJECT_DIR$/studentManagement/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/studentManagement/src/main/resources/ApplicationContext.xml" />
+        <option value="$PROJECT_DIR$/studentManagement/src/main/java/com/baiyang/dao/StuDaoImpl.java" />
+        <option value="$PROJECT_DIR$/studentManagement/src/main/java/com/baiyang/service/StuService.java" />
+        <option value="$PROJECT_DIR$/studentManagement/src/main/java/com/baiyang/service/serviceImpl/StuServiceImpl.java" />
+        <option value="$PROJECT_DIR$/studentManagement/src/main/java/com/baiyang/dao/StuDao.java" />
+        <option value="$PROJECT_DIR$/studentManagement/src/main/resources/springmvc.xml" />
+        <option value="$PROJECT_DIR$/studentManagement/src/main/java/com/baiyang/controller/DoLoginController.java" />
+        <option value="$PROJECT_DIR$/studentManagement/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/studentManagement/src/test/java/com/baiyang/service/loginServiceImpl.java" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/studentManagement/src/main/webapp/WEB-INF/stu/student.jsp" />
+        <option value="$PROJECT_DIR$/studentManagement/src/main/java/com/baiyang/service/serviceImpl/LoginServiceImpl.java" />
+        <option value="$PROJECT_DIR$/aop/src/main/src/com/baiyang/util/TransactionManager.java" />
+        <option value="$PROJECT_DIR$/aop/src/main/src/com/baiyang/controller/DoLoginController.java" />
+        <option value="$PROJECT_DIR$/aop/pom.xml" />
+        <option value="$PROJECT_DIR$/studentManagement/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/Maven/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="D:\Maven\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="studentManagement Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="studentManagement Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="studentManagement Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/springMVC/springMVC.iml" />
+        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/artifacts/springMVC_war.xml" />
+        <option value="$PROJECT_DIR$/.idea/artifacts/springMVC_war_exploded.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/encodings.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_0_2_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_0_2_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_0_2_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_0_2_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_0_2_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_2_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_0_2_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_0_2_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_jsp_api_2_0.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="33" />
+    <option name="y" value="2" />
+    <option name="width" value="1820" />
+    <option name="height" value="1095" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="studentManagement" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="studentManagement" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="studentManagement" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="studentManagement" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="ssm" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="D:\IDEAProjects\ssm" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="ssm" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="D:\IDEAProjects\ssm" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name=".idea" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="ssm" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="D:\IDEAProjects\ssm" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name=".idea" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="artifacts" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2735632" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IDEAProjects\ssm\springMVC\src\main\webapp" />
+      <recent name="D:\IDEAProjects\ssm\springMVC\src\main\webapp\WEB-INF" />
+      <recent name="D:\IDEAProjects\ssm\springMVC\src\main\java\com\baiyang\service\serviceImpl" />
+      <recent name="D:\IDEAProjects\ssm\springMVC\src\main\java\com\baiyang\dao\daoimpl" />
+      <recent name="D:\IDEAProjects\ssm\springMVC\src\main\java\com\baiyang\dao" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.studentManagement">
+    <configuration name="loginServiceImpl.loginStu" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="studentManagement" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.baiyang.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.baiyang.service" />
+      <option name="MAIN_CLASS_NAME" value="com.baiyang.service.loginServiceImpl" />
+      <option name="METHOD_NAME" value="loginStu" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="studentManagement" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.21" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="BROWSER_ID" value="b2a9dca7-9d0b-4e1e-98a8-afb19c1328d2" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="studentManagement:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/studentManagement_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_ssm_2" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="52260" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="studentManagement:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.loginServiceImpl.loginStu" />
+      <item itemvalue="Tomcat Server.studentManagement" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1cedc05d-4b54-45a9-8d81-121f782732c5" name="Default Changelist" comment="" />
+      <created>1563412690758</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1563412690758</updated>
+      <workItem from="1563412692483" duration="6976000" />
+      <workItem from="1563447435019" duration="601000" />
+      <workItem from="1563449049173" duration="433000" />
+      <workItem from="1563449492429" duration="5216000" />
+      <workItem from="1563496891321" duration="31615000" />
+      <workItem from="1563582810939" duration="10373000" />
+      <workItem from="1563594454416" duration="6131000" />
+      <workItem from="1563613624947" duration="6181000" />
+      <workItem from="1563756553017" duration="4486000" />
+      <workItem from="1563766905971" duration="2714000" />
+    </task>
+    <task id="LOCAL-00001" summary="ssm框架学生管理系统">
+      <created>1563498090046</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1563498090046</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="loginServiceImpl_loginStu - 2019.07.19 at 18h 03m 08s.xml">
+      <configuration name="loginServiceImpl.loginStu" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="loginServiceImpl_loginStu - 2019.07.19 at 18h 03m 40s.xml">
+      <configuration name="loginServiceImpl.loginStu" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="loginServiceImpl_loginStu - 2019.07.19 at 20h 42m 21s.xml">
+      <configuration name="loginServiceImpl.loginStu" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="loginServiceImpl_loginStu - 2019.07.19 at 20h 47m 36s.xml">
+      <configuration name="loginServiceImpl.loginStu" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="loginServiceImpl_loginStu - 2019.07.19 at 20h 49m 57s.xml">
+      <configuration name="loginServiceImpl.loginStu" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="loginServiceImpl_loginStu - 2019.07.19 at 20h 50m 53s.xml">
+      <configuration name="loginServiceImpl.loginStu" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="74726000" />
+  </component>
+  <component name="TodoView" selected-index="3">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="27" y="2" width="1456" height="876" extended-state="1" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20487106" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3292683" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928263" weight="0.22764228" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.199187" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3292683" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50071734" side_tool="true" weight="0.3292683" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3292683" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="15" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24964131" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.20630373" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32998565" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ssm框架学生管理系统" />
+    <MESSAGE value="ssm框架学生管理系统实现登录" />
+    <MESSAGE value="ssm框架学生管理系统实现登录2" />
+    <option name="LAST_COMMIT_MESSAGE" value="ssm框架学生管理系统实现登录2" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/studentManagement/src/main/java/com/baiyang/domain/QueryResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studentManagement/src/main/java/com/baiyang/domain/Sc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studentManagement/src/main/java/com/baiyang/domain/Course.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studentManagement/src/main/java/com/baiyang/domain/Teacher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springMVC/src/main/java/com/baiyang/servlet/ServletDemo.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.2.RELEASE/spring-web-5.0.2.RELEASE-sources.jar!/org/springframework/web/bind/annotation/RequestMapping.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="118" column="13" selection-start-line="118" selection-start-column="13" selection-end-line="118" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/7.0.47/tomcat-embed-core-7.0.47.jar!/org/apache/tomcat/util/IntrospectionUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="751" selection-start-line="751" selection-end-line="751" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studentManagement/src/test/java/com/baiyang/daoImpl/UserDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-57">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studentManagement/src/main/java/com/baiyang/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studentManagement/src/main/webapp/WEB-INF/tea/Query.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studentManagement/src/main/webapp/WEB-INF/pages/student.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.2.RELEASE/spring-beans-5.0.2.RELEASE.jar!/org/springframework/beans/factory/xml/spring-beans.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="1063" column="12" selection-start-line="1063" selection-start-column="9" selection-end-line="1063" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studentManagement/src/main/webapp/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="46" lean-forward="true" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studentManagement/src/main/webapp/style_1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-891">
+          <caret line="210" column="16" selection-start-line="210" selection-start-column="16" selection-end-line="210" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.2.RELEASE/spring-context-5.0.2.RELEASE.jar!/org/springframework/context/config/spring-context.xsd">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studentManagement/src/main/webapp/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studentManagement/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/jdk1.8/src.zip!/java/lang/Throwable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="41">
+          <caret line="632" column="16" selection-start-line="632" selection-start-column="16" selection-end-line="632" selection-end-column="16" />
+          <folding>
+            <element signature="e#26222#26223#0" expanded="true" />
+            <element signature="e#26265#26266#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studentManagement/src/main/java/com/baiyang/domain/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/web-app_2_3.dtd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1919">
+          <caret line="113" column="45" lean-forward="true" selection-start-line="113" selection-start-column="45" selection-end-line="113" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studentManagement/src/main/java/com/baiyang/dao/StuDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="77" selection-start-line="15" selection-start-column="77" selection-end-line="15" selection-end-column="77" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studentManagement/src/main/java/com/baiyang/service/StuService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studentManagement/src/main/java/com/baiyang/service/serviceImpl/StuServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studentManagement/src/main/resources/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.2.RELEASE/spring-context-5.0.2.RELEASE-sources.jar!/org/springframework/ui/Model.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studentManagement/src/test/java/com/baiyang/service/loginServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.2.RELEASE/spring-core-5.0.2.RELEASE-sources.jar!/org/springframework/core/io/ClassPathResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2850">
+          <caret line="179" selection-start-line="179" selection-end-line="179" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.2.RELEASE/spring-beans-5.0.2.RELEASE-sources.jar!/org/springframework/beans/factory/xml/XmlBeanDefinitionReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5092">
+          <caret line="328" column="68" selection-start-line="328" selection-start-column="68" selection-end-line="328" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.2.RELEASE/spring-web-5.0.2.RELEASE-sources.jar!/org/springframework/web/context/ContextLoaderListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studentManagement/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="29" column="64" selection-start-line="29" selection-start-column="64" selection-end-line="29" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studentManagement/studentManagement.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" column="64" selection-start-line="27" selection-start-column="55" selection-end-line="27" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/uiDesigner.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/artifacts/studentManagement_war.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/artifacts/studentManagement_war_exploded.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="uml://MAVEN/com.baiyang:springMVC:1.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>com.baiyang:springMVC:1.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="0.0" y="377.98177083333326">com.baiyang:studentManagement:1.0-SNAPSHOT</node>
+            <node x="162.0" y="503.75">junit:junit:jar:4.12</node>
+            <node x="276.0" y="518.712543076441">junit:junit:jar:4.12/org.hamcrest:hamcrest-core:jar:1.3</node>
+            <node x="135.5" y="0.0">org.springframework:spring-context:jar:5.0.2.RELEASE</node>
+            <node x="280.0" y="197.83333333333334">org.springframework:spring-context:jar:5.0.2.RELEASE/org.springframework:spring-beans:jar:5.0.2.RELEASE</node>
+            <node x="284.5" y="135.83333333333334">org.springframework:spring-context:jar:5.0.2.RELEASE/org.springframework:spring-core:jar:5.0.2.RELEASE</node>
+            <node x="400.0" y="135.83333333333334">org.springframework:spring-context:jar:5.0.2.RELEASE/org.springframework:spring-core:jar:5.0.2.RELEASE/org.springframework:spring-jcl:jar:5.0.2.RELEASE</node>
+            <node x="268.0" y="23.666666666666686">org.springframework:spring-context:jar:5.0.2.RELEASE/org.springframework:spring-expression:jar:5.0.2.RELEASE</node>
+            <node x="134.5" y="251.75000000000003">org.aspectj:aspectjweaver:jar:1.6.8</node>
+            <node x="144.5" y="125.75">org.springframework:spring-aop:jar:5.0.2.RELEASE</node>
+            <node x="144.5" y="209.75000000000003">org.springframework:spring-test:jar:5.0.2.RELEASE</node>
+            <node x="150.0" y="629.75">org.springframework:spring-tx:jar:5.0.2.RELEASE</node>
+            <node x="143.5" y="691.75">org.springframework:spring-jdbc:jar:5.0.2.RELEASE</node>
+            <node x="143.5" y="167.75000000000003">org.springframework:spring-web:jar:5.0.2.RELEASE</node>
+            <node x="132.0" y="62.0">org.springframework:spring-webmvc:jar:5.0.2.RELEASE</node>
+            <node x="145.5" y="419.75">javax.servlet:servlet-api:jar:2.5</node>
+            <node x="155.0" y="293.75">javax.servlet.jsp:jsp-api:jar:2.0</node>
+            <node x="165.0" y="377.75">jstl:jstl:jar:1.2</node>
+            <node x="116.0" y="461.75">mysql:mysql-connector-java:jar:5.1.6</node>
+            <node x="160.0" y="733.75">log4j:log4j:jar:1.2.12</node>
+            <node x="152.0" y="837.75">org.slf4j:slf4j-api:jar:1.6.6</node>
+            <node x="141.5" y="775.75">org.slf4j:slf4j-log4j12:jar:1.6.6</node>
+            <node x="302.0" y="754.212543076441">org.slf4j:slf4j-log4j12:jar:1.6.6/log4j:log4j:jar:1.2.17</node>
+            <node x="152.0" y="587.75">org.mybatis:mybatis:jar:3.4.5</node>
+            <node x="134.0" y="335.75">org.mybatis:mybatis-spring:jar:1.3.1</node>
+            <node x="159.5" y="545.75">c3p0:c3p0:jar:0.9.1.2</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="org.springframework:spring-context:jar:5.0.2.RELEASE/org.springframework:spring-expression:jar:5.0.2.RELEASE" target="org.springframework:spring-context:jar:5.0.2.RELEASE/org.springframework:spring-core:jar:5.0.2.RELEASE">
+              <point x="0.0" y="11.0" />
+              <point x="0.0" y="-11.0" />
+            </edge>
+            <edge source="com.baiyang:studentManagement:1.0-SNAPSHOT" target="junit:junit:jar:4.12">
+              <point x="38.0" y="2.3157894736842195" />
+              <point x="96.0" y="514.75" />
+              <point x="-20.0" y="-0.0" />
+            </edge>
+            <edge source="com.baiyang:studentManagement:1.0-SNAPSHOT" target="log4j:log4j:jar:1.2.12">
+              <point x="38.0" y="8.10526315789474" />
+              <point x="96.0" y="744.75" />
+              <point x="-22.0" y="-0.0" />
+            </edge>
+            <edge source="com.baiyang:studentManagement:1.0-SNAPSHOT" target="org.springframework:spring-test:jar:5.0.2.RELEASE">
+              <point x="38.0" y="-5.78947368421052" />
+              <point x="96.0" y="220.75000000000003" />
+              <point x="-37.5" y="-0.0" />
+            </edge>
+            <edge source="com.baiyang:studentManagement:1.0-SNAPSHOT" target="org.aspectj:aspectjweaver:jar:1.6.8">
+              <point x="38.0" y="-4.631578947368439" />
+              <point x="96.0" y="262.75" />
+              <point x="-47.5" y="-0.0" />
+            </edge>
+            <edge source="com.baiyang:studentManagement:1.0-SNAPSHOT" target="c3p0:c3p0:jar:0.9.1.2">
+              <point x="38.0" y="3.473684210526301" />
+              <point x="96.0" y="556.75" />
+              <point x="-22.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:5.0.2.RELEASE" target="org.springframework:spring-context:jar:5.0.2.RELEASE/org.springframework:spring-expression:jar:5.0.2.RELEASE">
+              <point x="50.0" y="-7.333333333333333" />
+              <point x="248.0" y="65.66666666666669" />
+              <point x="-56.0" y="5.5" />
+            </edge>
+            <edge source="com.baiyang:studentManagement:1.0-SNAPSHOT" target="org.springframework:spring-web:jar:5.0.2.RELEASE">
+              <point x="38.0" y="-6.9473684210526585" />
+              <point x="96.0" y="184.25000000000003" />
+              <point x="-38.5" y="5.5" />
+            </edge>
+            <edge source="org.springframework:spring-context:jar:5.0.2.RELEASE" target="org.springframework:spring-context:jar:5.0.2.RELEASE/org.springframework:spring-beans:jar:5.0.2.RELEASE">
+              <point x="46.5" y="7.333333333333329" />
+              <point x="248.0" y="18.333333333333314" />
+              <point x="-44.0" y="-9.166666666666657" />
+            </edge>
+            <edge source="com.baiyang:studentManagement:1.0-SNAPSHOT" target="mysql:mysql-connector-java:jar:5.1.6">
+              <point x="38.0" y="1.1578947368420813" />
+              <point x="96.0" y="472.75" />
+              <point x="-66.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-context:jar:5.0.2.RELEASE" target="org.springframework:spring-aop:jar:5.0.2.RELEASE">
+              <point x="-46.5" y="5.5" />
+              <point x="106.0" y="16.5" />
+              <point x="106.0" y="131.25000000000003" />
+              <point x="-37.5" y="-5.5" />
+            </edge>
+            <edge source="com.baiyang:studentManagement:1.0-SNAPSHOT" target="javax.servlet:servlet-api:jar:2.5">
+              <point x="38.0" y="-0.0" />
+              <point x="96.0" y="430.75" />
+              <point x="-36.5" y="-0.0" />
+            </edge>
+            <edge source="com.baiyang:studentManagement:1.0-SNAPSHOT" target="org.slf4j:slf4j-log4j12:jar:1.6.6">
+              <point x="38.0" y="9.263157894736878" />
+              <point x="96.0" y="786.75" />
+              <point x="-40.5" y="-0.0" />
+            </edge>
+            <edge source="com.baiyang:studentManagement:1.0-SNAPSHOT" target="org.mybatis:mybatis:jar:3.4.5">
+              <point x="38.0" y="4.631578947368439" />
+              <point x="96.0" y="598.75" />
+              <point x="-30.0" y="-0.0" />
+            </edge>
+            <edge source="junit:junit:jar:4.12" target="junit:junit:jar:4.12/org.hamcrest:hamcrest-core:jar:1.3">
+              <point x="20.0" y="-0.0" />
+              <point x="248.0" y="514.75" />
+              <point x="-48.0" y="-0.0" />
+            </edge>
+            <edge source="com.baiyang:studentManagement:1.0-SNAPSHOT" target="org.mybatis:mybatis-spring:jar:1.3.1">
+              <point x="38.0" y="-2.3157894736842195" />
+              <point x="96.0" y="346.75" />
+              <point x="-48.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-jdbc:jar:5.0.2.RELEASE" target="org.springframework:spring-context:jar:5.0.2.RELEASE/org.springframework:spring-core:jar:5.0.2.RELEASE">
+              <point x="38.5" y="-5.5" />
+              <point x="248.0" y="697.25" />
+              <point x="268.0" y="156.26190476190476" />
+              <point x="-39.5" y="9.428571428571416" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:5.0.2.RELEASE" target="org.springframework:spring-context:jar:5.0.2.RELEASE/org.springframework:spring-beans:jar:5.0.2.RELEASE">
+              <point x="50.0" y="7.333333333333332" />
+              <point x="248.0" y="80.33333333333331" />
+              <point x="-44.0" y="-5.5" />
+            </edge>
+            <edge source="org.springframework:spring-tx:jar:5.0.2.RELEASE" target="org.springframework:spring-context:jar:5.0.2.RELEASE/org.springframework:spring-beans:jar:5.0.2.RELEASE">
+              <point x="32.0" y="5.5" />
+              <point x="248.0" y="646.25" />
+              <point x="-44.0" y="5.5" />
+            </edge>
+            <edge source="org.springframework:spring-context:jar:5.0.2.RELEASE/org.springframework:spring-beans:jar:5.0.2.RELEASE" target="org.springframework:spring-context:jar:5.0.2.RELEASE/org.springframework:spring-core:jar:5.0.2.RELEASE">
+              <point x="0.0" y="-11.0" />
+              <point x="0.0" y="11.0" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:5.0.2.RELEASE" target="org.springframework:spring-web:jar:5.0.2.RELEASE">
+              <point x="-50.0" y="5.5" />
+              <point x="96.0" y="78.5" />
+              <point x="96.0" y="173.25000000000003" />
+              <point x="-38.5" y="-5.5" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:5.0.2.RELEASE" target="org.springframework:spring-context:jar:5.0.2.RELEASE/org.springframework:spring-core:jar:5.0.2.RELEASE">
+              <point x="50.0" y="-0.0" />
+              <point x="248.0" y="73.0" />
+              <point x="268.0" y="140.54761904761904" />
+              <point x="-39.5" y="-6.285714285714306" />
+            </edge>
+            <edge source="org.springframework:spring-jdbc:jar:5.0.2.RELEASE" target="org.springframework:spring-tx:jar:5.0.2.RELEASE">
+              <point x="0.0" y="-11.0" />
+              <point x="0.0" y="11.0" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:5.0.2.RELEASE" target="org.springframework:spring-context:jar:5.0.2.RELEASE/org.springframework:spring-core:jar:5.0.2.RELEASE">
+              <point x="38.5" y="-5.5" />
+              <point x="248.0" y="173.25000000000003" />
+              <point x="268.0" y="146.83333333333334" />
+              <point x="-39.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:5.0.2.RELEASE" target="org.springframework:spring-context:jar:5.0.2.RELEASE/org.springframework:spring-beans:jar:5.0.2.RELEASE">
+              <point x="38.5" y="5.5" />
+              <point x="248.0" y="184.25000000000003" />
+              <point x="-44.0" y="1.8333333333333428" />
+            </edge>
+            <edge source="com.baiyang:studentManagement:1.0-SNAPSHOT" target="org.springframework:spring-webmvc:jar:5.0.2.RELEASE">
+              <point x="38.0" y="-9.263157894736821" />
+              <point x="96.0" y="67.5" />
+              <point x="-50.0" y="-5.5" />
+            </edge>
+            <edge source="org.springframework:spring-tx:jar:5.0.2.RELEASE" target="org.springframework:spring-context:jar:5.0.2.RELEASE/org.springframework:spring-core:jar:5.0.2.RELEASE">
+              <point x="32.0" y="-5.5" />
+              <point x="248.0" y="635.25" />
+              <point x="268.0" y="153.11904761904762" />
+              <point x="-39.5" y="6.285714285714278" />
+            </edge>
+            <edge source="org.slf4j:slf4j-log4j12:jar:1.6.6" target="org.slf4j:slf4j-log4j12:jar:1.6.6/log4j:log4j:jar:1.2.17">
+              <point x="40.5" y="-0.0" />
+              <point x="248.0" y="786.75" />
+              <point x="268.0" y="770.712543076441" />
+              <point x="-22.0" y="5.5" />
+            </edge>
+            <edge source="org.springframework:spring-aop:jar:5.0.2.RELEASE" target="org.springframework:spring-context:jar:5.0.2.RELEASE/org.springframework:spring-beans:jar:5.0.2.RELEASE">
+              <point x="37.5" y="5.5" />
+              <point x="248.0" y="142.25000000000003" />
+              <point x="-44.0" y="-1.8333333333333428" />
+            </edge>
+            <edge source="com.baiyang:studentManagement:1.0-SNAPSHOT" target="javax.servlet.jsp:jsp-api:jar:2.0">
+              <point x="38.0" y="-3.473684210526301" />
+              <point x="96.0" y="304.75" />
+              <point x="-27.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-context:jar:5.0.2.RELEASE/org.springframework:spring-core:jar:5.0.2.RELEASE" target="org.springframework:spring-context:jar:5.0.2.RELEASE/org.springframework:spring-core:jar:5.0.2.RELEASE/org.springframework:spring-jcl:jar:5.0.2.RELEASE">
+              <point x="39.5" y="-0.0" />
+              <point x="-33.5" y="-0.0" />
+            </edge>
+            <edge source="com.baiyang:studentManagement:1.0-SNAPSHOT" target="org.springframework:spring-tx:jar:5.0.2.RELEASE">
+              <point x="38.0" y="5.78947368421052" />
+              <point x="96.0" y="640.75" />
+              <point x="-32.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-test:jar:5.0.2.RELEASE" target="org.springframework:spring-context:jar:5.0.2.RELEASE/org.springframework:spring-core:jar:5.0.2.RELEASE">
+              <point x="37.5" y="-0.0" />
+              <point x="248.0" y="220.75000000000003" />
+              <point x="268.0" y="149.97619047619048" />
+              <point x="-39.5" y="3.142857142857139" />
+            </edge>
+            <edge source="com.baiyang:studentManagement:1.0-SNAPSHOT" target="org.slf4j:slf4j-api:jar:1.6.6">
+              <point x="38.0" y="10.42105263157896" />
+              <point x="96.0" y="848.75" />
+              <point x="-30.0" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-context:jar:5.0.2.RELEASE" target="org.springframework:spring-context:jar:5.0.2.RELEASE/org.springframework:spring-expression:jar:5.0.2.RELEASE">
+              <point x="46.5" y="-7.333333333333329" />
+              <point x="248.0" y="3.6666666666666856" />
+              <point x="-56.0" y="-5.5" />
+            </edge>
+            <edge source="org.springframework:spring-jdbc:jar:5.0.2.RELEASE" target="org.springframework:spring-context:jar:5.0.2.RELEASE/org.springframework:spring-beans:jar:5.0.2.RELEASE">
+              <point x="38.5" y="5.5" />
+              <point x="248.0" y="708.25" />
+              <point x="-44.0" y="9.166666666666657" />
+            </edge>
+            <edge source="org.slf4j:slf4j-log4j12:jar:1.6.6/log4j:log4j:jar:1.2.17" target="log4j:log4j:jar:1.2.12">
+              <point x="-22.0" y="-5.5" />
+              <point x="268.0" y="759.712543076441" />
+              <point x="248.0" y="744.75" />
+              <point x="22.0" y="-0.0" />
+            </edge>
+            <edge source="com.baiyang:studentManagement:1.0-SNAPSHOT" target="org.springframework:spring-aop:jar:5.0.2.RELEASE">
+              <point x="38.0" y="-8.10526315789474" />
+              <point x="96.0" y="142.25000000000003" />
+              <point x="-37.5" y="5.5" />
+            </edge>
+            <edge source="com.baiyang:studentManagement:1.0-SNAPSHOT" target="org.springframework:spring-jdbc:jar:5.0.2.RELEASE">
+              <point x="38.0" y="6.9473684210526585" />
+              <point x="96.0" y="702.75" />
+              <point x="-38.5" y="-0.0" />
+            </edge>
+            <edge source="org.springframework:spring-context:jar:5.0.2.RELEASE" target="org.springframework:spring-context:jar:5.0.2.RELEASE/org.springframework:spring-core:jar:5.0.2.RELEASE">
+              <point x="46.5" y="-0.0" />
+              <point x="248.0" y="11.0" />
+              <point x="268.0" y="137.4047619047619" />
+              <point x="-39.5" y="-9.428571428571445" />
+            </edge>
+            <edge source="com.baiyang:studentManagement:1.0-SNAPSHOT" target="org.springframework:spring-context:jar:5.0.2.RELEASE">
+              <point x="38.0" y="-10.42105263157896" />
+              <point x="96.0" y="5.5" />
+              <point x="-46.5" y="-5.5" />
+            </edge>
+            <edge source="org.slf4j:slf4j-log4j12:jar:1.6.6" target="org.slf4j:slf4j-api:jar:1.6.6">
+              <point x="0.0" y="11.0" />
+              <point x="0.0" y="-11.0" />
+            </edge>
+            <edge source="org.springframework:spring-aop:jar:5.0.2.RELEASE" target="org.springframework:spring-context:jar:5.0.2.RELEASE/org.springframework:spring-core:jar:5.0.2.RELEASE">
+              <point x="37.5" y="-5.5" />
+              <point x="248.0" y="131.25000000000003" />
+              <point x="268.0" y="143.6904761904762" />
+              <point x="-39.5" y="-3.142857142857139" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:5.0.2.RELEASE" target="org.springframework:spring-context:jar:5.0.2.RELEASE">
+              <point x="0.0" y="-11.0" />
+              <point x="0.0" y="11.0" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:5.0.2.RELEASE" target="org.springframework:spring-aop:jar:5.0.2.RELEASE">
+              <point x="0.0" y="11.0" />
+              <point x="0.0" y="-11.0" />
+            </edge>
+            <edge source="com.baiyang:studentManagement:1.0-SNAPSHOT" target="jstl:jstl:jar:1.2">
+              <point x="38.0" y="-1.1578947368420813" />
+              <point x="-17.0" y="-0.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.7784090909090909" x="120.0" y="288.0" />
+          <SelectedNodes>
+            <node>com.baiyang:studentManagement:1.0-SNAPSHOT</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studentManagement/src/main/java/com/baiyang/service/LoginService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studentManagement/src/main/java/com/baiyang/service/serviceImpl/LoginServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studentManagement/src/main/java/com/baiyang/controller/DoLoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="29" column="50" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studentManagement/src/main/webapp/WEB-INF/stu/student.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aop/src/main/src/com/baiyang/util/TransactionManager.java" />
+    <entry file="file://$PROJECT_DIR$/aop/src/main/webapp/login.jsp" />
+    <entry file="file://$PROJECT_DIR$/aop/src/main/src/com/baiyang/controller/DoLoginController.java" />
+    <entry file="file://$PROJECT_DIR$/aop/src/main/webapp/WEB-INF/web.xml" />
+    <entry file="file://$PROJECT_DIR$/aop/aop.iml" />
+    <entry file="file://$PROJECT_DIR$/aop/pom.xml" />
+    <entry file="uml://MAVEN/com.baiyang:studentManagement:1.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>com.baiyang:studentManagement:1.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="" y="">com.baiyang:studentManagement:1.0-SNAPSHOT</node>
+            <node x="" y="">org.aspectj:aspectjweaver:jar:1.6.8</node>
+            <node x="" y="">org.springframework:spring-aop:jar:5.0.2.RELEASE</node>
+            <node x="" y="">org.springframework:spring-context:jar:5.0.2.RELEASE</node>
+            <node x="" y="">org.springframework:spring-context:jar:5.0.2.RELEASE/org.springframework:spring-expression:jar:5.0.2.RELEASE</node>
+            <node x="" y="">org.springframework:spring-context-support:jar:5.0.2.RELEASE</node>
+            <node x="" y="">org.springframework:spring-web:jar:5.0.2.RELEASE</node>
+            <node x="" y="">org.springframework:spring-orm:jar:5.0.2.RELEASE</node>
+            <node x="" y="">org.springframework:spring-orm:jar:5.0.2.RELEASE/org.springframework:spring-jdbc:jar:5.0.2.RELEASE</node>
+            <node x="" y="">org.springframework:spring-beans:jar:5.0.2.RELEASE</node>
+            <node x="" y="">org.springframework:spring-core:jar:5.0.2.RELEASE</node>
+            <node x="" y="">org.springframework:spring-core:jar:5.0.2.RELEASE/org.springframework:spring-jcl:jar:5.0.2.RELEASE</node>
+            <node x="" y="">org.springframework:spring-test:jar:5.0.2.RELEASE</node>
+            <node x="" y="">org.springframework:spring-webmvc:jar:5.0.2.RELEASE</node>
+            <node x="" y="">org.springframework:spring-tx:jar:5.0.2.RELEASE</node>
+            <node x="" y="">junit:junit:jar:4.12</node>
+            <node x="" y="">junit:junit:jar:4.12/org.hamcrest:hamcrest-core:jar:1.3</node>
+            <node x="" y="">mysql:mysql-connector-java:jar:5.1.6</node>
+            <node x="" y="">javax.servlet:javax.servlet-api:jar:3.1.0</node>
+            <node x="" y="">javax.servlet.jsp:jsp-api:jar:2.0</node>
+            <node x="" y="">jstl:jstl:jar:1.2</node>
+            <node x="" y="">log4j:log4j:jar:1.2.12</node>
+            <node x="" y="">org.slf4j:slf4j-api:jar:1.6.6</node>
+            <node x="" y="">org.slf4j:slf4j-log4j12:jar:1.6.6</node>
+            <node x="" y="">org.slf4j:slf4j-log4j12:jar:1.6.6/log4j:log4j:jar:1.2.17</node>
+            <node x="" y="">org.mybatis:mybatis:jar:3.4.5</node>
+            <node x="" y="">org.mybatis:mybatis-spring:jar:1.3.0</node>
+            <node x="" y="">c3p0:c3p0:jar:0.9.1.2</node>
+            <node x="" y="">com.github.pagehelper:pagehelper:jar:5.1.2</node>
+            <node x="" y="">com.github.pagehelper:pagehelper:jar:5.1.2/com.github.jsqlparser:jsqlparser:jar:1.0</node>
+            <node x="" y="">org.springframework.security:spring-security-web:jar:5.0.1.RELEASE</node>
+            <node x="" y="">org.springframework.security:spring-security-web:jar:5.0.1.RELEASE/org.springframework:spring-aop:jar:5.0.3.RELEASE</node>
+            <node x="" y="">org.springframework.security:spring-security-web:jar:5.0.1.RELEASE/org.springframework:spring-beans:jar:5.0.3.RELEASE</node>
+            <node x="" y="">org.springframework.security:spring-security-web:jar:5.0.1.RELEASE/org.springframework:spring-core:jar:5.0.3.RELEASE</node>
+            <node x="" y="">org.springframework.security:spring-security-web:jar:5.0.1.RELEASE/org.springframework:spring-expression:jar:5.0.3.RELEASE</node>
+            <node x="" y="">org.springframework.security:spring-security-config:jar:5.0.1.RELEASE</node>
+            <node x="" y="">org.springframework.security:spring-security-config:jar:5.0.1.RELEASE/org.springframework:spring-aop:jar:5.0.2.RELEASE</node>
+            <node x="" y="">org.springframework.security:spring-security-config:jar:5.0.1.RELEASE/org.springframework:spring-beans:jar:5.0.2.RELEASE</node>
+            <node x="" y="">org.springframework.security:spring-security-config:jar:5.0.1.RELEASE/org.springframework:spring-core:jar:5.0.2.RELEASE</node>
+            <node x="" y="">org.springframework.security:spring-security-core:jar:5.0.1.RELEASE</node>
+            <node x="" y="">org.springframework.security:spring-security-core:jar:5.0.1.RELEASE/org.springframework:spring-aop:jar:5.0.2.RELEASE</node>
+            <node x="" y="">org.springframework.security:spring-security-core:jar:5.0.1.RELEASE/org.springframework:spring-beans:jar:5.0.2.RELEASE</node>
+            <node x="" y="">org.springframework.security:spring-security-core:jar:5.0.1.RELEASE/org.springframework:spring-core:jar:5.0.2.RELEASE</node>
+            <node x="" y="">org.springframework.security:spring-security-core:jar:5.0.1.RELEASE/org.springframework:spring-expression:jar:5.0.2.RELEASE</node>
+            <node x="" y="">org.springframework.security:spring-security-taglibs:jar:5.0.1.RELEASE</node>
+            <node x="" y="">org.springframework.security:spring-security-taglibs:jar:5.0.1.RELEASE/org.springframework.security:spring-security-acl:jar:5.0.1.RELEASE</node>
+            <node x="" y="">org.springframework.security:spring-security-taglibs:jar:5.0.1.RELEASE/org.springframework.security:spring-security-acl:jar:5.0.1.RELEASE/org.springframework:spring-aop:jar:5.0.2.RELEASE</node>
+            <node x="" y="">org.springframework.security:spring-security-taglibs:jar:5.0.1.RELEASE/org.springframework.security:spring-security-acl:jar:5.0.1.RELEASE/org.springframework:spring-core:jar:5.0.2.RELEASE</node>
+            <node x="" y="">org.springframework.security:spring-security-taglibs:jar:5.0.1.RELEASE/org.springframework.security:spring-security-acl:jar:5.0.1.RELEASE/org.springframework:spring-jdbc:jar:5.0.3.RELEASE</node>
+            <node x="" y="">org.springframework.security:spring-security-taglibs:jar:5.0.1.RELEASE/org.springframework:spring-aop:jar:5.0.2.RELEASE</node>
+            <node x="" y="">org.springframework.security:spring-security-taglibs:jar:5.0.1.RELEASE/org.springframework:spring-beans:jar:5.0.2.RELEASE</node>
+            <node x="" y="">org.springframework.security:spring-security-taglibs:jar:5.0.1.RELEASE/org.springframework:spring-core:jar:5.0.2.RELEASE</node>
+            <node x="" y="">org.springframework.security:spring-security-taglibs:jar:5.0.1.RELEASE/org.springframework:spring-expression:jar:5.0.2.RELEASE</node>
+            <node x="" y="">com.alibaba:druid:jar:1.0.9</node>
+            <node x="" y="">com.alibaba:druid:jar:1.0.9/com.alibaba:jconsole:jar:1.8.0</node>
+            <node x="" y="">com.alibaba:druid:jar:1.0.9/com.alibaba:tools:jar:1.8.0</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.1445336008024072" x="471.09823854175795" y="323.1222504600824" />
+          <SelectedNodes />
+          <Categories />
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studentManagement/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1226">
+          <caret line="68" column="20" selection-start-line="68" selection-start-column="20" selection-end-line="68" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studentManagement/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="57" column="59" selection-start-line="57" selection-start-column="59" selection-end-line="57" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>studentManagement:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2735632" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2735632" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2735632" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2735632" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web|studentManagement</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2735632" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: javax.servlet.jsp:jsp-api:2.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2735632" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="D:\IDEAProjects\ssm\studentManagement" />
+    <option value="tomcat7:run" />
+    <option value="tomcat:run" />
+  </component>
+</project>
