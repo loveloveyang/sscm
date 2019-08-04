@@ -5,7 +5,10 @@ public class Sc {
     public Sc() {
 
     }
-
+    public Sc(int sno,int cno){
+        this.sno=sno;
+        this.cno=cno;
+    }
     private int sno;
     private int cno;
 

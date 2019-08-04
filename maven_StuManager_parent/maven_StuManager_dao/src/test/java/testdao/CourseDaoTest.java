@@ -21,11 +21,7 @@ public class CourseDaoTest {
         course.setCno(1);
         ApplicationContext ac = new ClassPathXmlApplicationContext("Spring/applicationContext-dao.xml");
         CourseDao courseDao = (CourseDao) ac.getBean("courseDao");
-        List<Course> allCouByCno = courseDao.findAllCouByCno(course.getCno());
-        for (Course c:allCouByCno
-             ) {
-            System.out.println(c);
-        }
+
         System.out.println("==========================================================================");
     }
 

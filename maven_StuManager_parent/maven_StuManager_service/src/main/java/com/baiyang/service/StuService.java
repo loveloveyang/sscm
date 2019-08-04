@@ -11,18 +11,10 @@ import java.util.Set;
  * 学生的业务层接口
  */
 public interface StuService {
-    /*public List<Student> selectStu();
-    public double selectScre(int sno);
-    public Student selectStu1(int id);
-    public Iterator<Student> selectStu(String aa);
-    public int updateStu(Student stu);
-    public int deleteStu(int id);
-    public int insertStu(Student stu);
-    public Set<Student> selectStuCou();*/
-
     /**
      * @return
      */
+
     public List<Student> findALLStudent();
 
     /**
@@ -30,7 +22,13 @@ public interface StuService {
      * @return
      */
 
-    public double findScreBySno(int sno);
+    public Student findScreBySno(int sno);
+
+    /**
+     * 根据学号查找该学生（更新学生用）
+     */
+
+    public Student findStuBySno(int sno);
 
     /**
      * @param all
@@ -46,11 +44,11 @@ public interface StuService {
     public Set<Student> findStuCou();
 
     /**
-     * @param stu
+     * @param student
      * @return
      */
 
-    public int updateStu(Student stu);
+    public int updateStu(Student student);
 
     /**
      * @param sno

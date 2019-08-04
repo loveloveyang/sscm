@@ -1,6 +1,7 @@
 package com.baiyang.service.impl;
 
-import com.baiyang.dao.StuDao;
+import com.baiyang.dao.StudentDao;
+import com.baiyang.dao.TeacherDao;
 import com.baiyang.domain.Student;
 import com.baiyang.domain.Teacher;
 import com.baiyang.service.LoginService;
@@ -10,16 +11,18 @@ import org.springframework.stereotype.Service;
 @Service("loginService")
 public class LoginServiceImpl implements LoginService {
     @Autowired
-    private StuDao stuDao;
+    private StudentDao studentDao;
+    @Autowired
+    private TeacherDao teacherDao;
 
     public Teacher loginTea(Teacher tea) {
-
-        return null;
+        System.out.println("登录老师的方法开始执行-----业务层");
+        return teacherDao.loginTea(tea);
     }
 
     public Student loginStu(Student stu) {
-        System.out.println("业务层：登录学生的方法执行中");
-        return stuDao.loginStu(stu);
+        System.out.println("登录学生的方法开始执行-----业务层");
+        return studentDao.loginStu(stu);
     }
 
 

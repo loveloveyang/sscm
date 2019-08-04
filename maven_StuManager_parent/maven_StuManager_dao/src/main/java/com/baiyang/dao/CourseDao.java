@@ -5,16 +5,9 @@ import org.springframework.stereotype.Repository;
 
 import java.util.List;
 import java.util.Set;
+
 @Repository
 public interface CourseDao {
-    /**
-     * 根据课程号查找所有课程
-     *
-     * @param cno
-     * @return Course
-     */
-    public List<Course> findAllCouByCno(int cno);
-
     /**
      * 查找所有课程
      *
@@ -23,7 +16,7 @@ public interface CourseDao {
     public List<Course> findAllCou();
 
     /**
-     * 根据学号查找所有课程
+     * 根据学号查找该学生选的所有课程
      *
      * @param sno
      * @return List<Course>
@@ -46,7 +39,10 @@ public interface CourseDao {
      * @return Set<Course>
      */
     public Set<Course> findCouStuByCno(int cno);
-
+    /**
+     * 根据课程号查找该课程
+     */
+    public Course findCouByCno(int cno);
     /**
      * 更新课程
      *

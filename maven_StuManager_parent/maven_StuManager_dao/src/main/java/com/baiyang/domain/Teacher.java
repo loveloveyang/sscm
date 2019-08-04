@@ -80,4 +80,14 @@ public class Teacher {
         this.student = student;
     }
 
+    @Override
+    public String toString() {
+        return "Teacher{" +
+                "tno=" + tno +
+                ", tname='" + tname + '\'' +
+                ", tpassword='" + tpassword + '\'' +
+                ", course=" + course +
+                ", student=" + student +
+                '}';
+    }
 }

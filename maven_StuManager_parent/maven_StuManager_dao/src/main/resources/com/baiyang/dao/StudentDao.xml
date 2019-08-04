@@ -2,7 +2,7 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.baiyang.dao.StuDao">
+<mapper namespace="com.baiyang.dao.StudentDao">
 
     <resultMap id="studentMap" type="com.baiyang.domain.Student">
         <id property="sno" column="SNo"></id>
@@ -10,6 +10,7 @@
         <result property="ssex" column="Ssex"></result>
         <result property="spassword" column="Spassword"></result>
         <result property="sclass" column="Sclass"></result>
+        <result property="scredit" column="scredit"></result>
         <collection property="course" ofType="com.baiyang.domain.Course">
             <id property="cno" column="CNo"/>
             <result property="cname" column="Cname"/>
@@ -21,22 +22,25 @@
     <select id="loginStu" parameterType="com.baiyang.domain.Student" resultType="com.baiyang.domain.Student">
         SELECT * FROM student WHERE SNo=#{sno} AND Spassword=#{spassword}
     </select>
-    <select id="findALLStudent" resultType="com.baiyang.domain.Student">
-       SELECT * FROM student
+    <select id="findALLStudent" resultMap="studentMap">
+       SELECT student.*,SUM(Ccredit) AS scredit FROM course,student,sc WHERE student.SNo=sc.SNo AND course.CNo=sc.CNo GROUP BY student.SNo
     </select>
-    <select id="findScreBySno" parameterType="Integer" resultType="Double">
-        SELECT SUM(Ccredit) FROM course,sc,student WHERE  course.CNo=sc.CNo AND student.SNo=sc.SNo AND student.SNo=#{sno}
+    <select id="findScreBySno" parameterType="Integer" resultMap="studentMap">
+        SELECT student.* as sno,SUM(Ccredit) as  scredit  FROM course,sc,student WHERE  course.CNo=sc.CNo AND student.SNo=sc.SNo AND student.SNo=#{sno}
+    </select>
+    <select id="findStuBySno" parameterType="Integer" resultType="com.baiyang.domain.Student">
+         SELECT student.*  FROM student WHERE  student.SNo=#{sno}
     </select>
     <select id="findStuCou" resultMap="studentMap">
         SELECT student.*,course.CNo,course.Cname,course.Ccredit FROM student
 			 LEFT JOIN sc ON sc.SNo=student.SNo
 			 LEFT JOIN course ON sc.CNo=course.CNo
     </select>
-    <update id="updateStu" parameterType="com.baiyang.domain.Student" >
+    <update id="updateStu" parameterType="com.baiyang.domain.Student">
 		update student set Sname=#{sname},Spassword=#{spassword},Sclass=#{sclass},Ssex=#{ssex} where SNo=#{sno}
 	</update>
-    <insert id="saveStu" parameterType="com.baiyang.domain.Student" >
-		insert into student(SNo,Sname,Spassword,Sclass,Ssex) values(#{sno},#{sname},#{spassword},#{sclass},#{ssex})
+    <insert id="saveStu" parameterType="com.baiyang.domain.Student">
+		insert into student(Sname,Spassword,Sclass,Ssex) values(#{sname},#{spassword},#{sclass},#{ssex})
 	</insert>
     <delete id="deleteStu" parameterType="Integer">
 		delete from student where SNo=#{sno}

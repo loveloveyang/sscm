@@ -2,66 +2,70 @@ package com.baiyang.domain;
 
 public class QueryResult {
 
-    private int SNo;
-    private int CNo;
-    private String Sname;
-    private String Sclass;
-    private String Cname;
-    private String classroom;
+    private int sno;
+    private int cno;
+    private String sname;
+    private String sclass;
+    private String cname;
+    private String cclassroom;
 
-    public int getSNo() {
-        return SNo;
+    public int getSno() {
+        return sno;
     }
 
-    public void setSNo(int sNo) {
-        SNo = sNo;
+    public void setSno(int sno) {
+        this.sno = sno;
     }
 
-    public int getCNo() {
-        return CNo;
+    public int getCno() {
+        return cno;
     }
 
-    public void setCNo(int cNo) {
-        CNo = cNo;
+    public void setCno(int cno) {
+        this.cno = cno;
     }
 
     public String getSname() {
-        return Sname;
+        return sname;
     }
 
     public void setSname(String sname) {
-        Sname = sname;
+        this.sname = sname;
     }
 
     public String getSclass() {
-        return Sclass;
+        return sclass;
     }
 
     public void setSclass(String sclass) {
-        Sclass = sclass;
+        this.sclass = sclass;
     }
 
     public String getCname() {
-        return Cname;
+        return cname;
     }
 
     public void setCname(String cname) {
-        Cname = cname;
+        this.cname = cname;
     }
 
-    public String getClassroom() {
-        return classroom;
+    public String getCclassroom() {
+        return cclassroom;
     }
 
-    public void setClassroom(String classroom) {
-        this.classroom = classroom;
+    public void setCclassroom(String cclassroom) {
+        this.cclassroom = cclassroom;
     }
 
     @Override
     public String toString() {
-        return "QueryResult [SNo=" + SNo + ", CNo=" + CNo + ", Sname=" + Sname + ", Sclass=" + Sclass + ", Cname="
-                + Cname + ", classroom=" + classroom + "]";
+        return "QueryResult{" +
+                "sno=" + sno +
+                ", cno=" + cno +
+                ", sname='" + sname + '\'' +
+                ", sclass='" + sclass + '\'' +
+                ", cname='" + cname + '\'' +
+                ", cclassroom='" + cclassroom + '\'' +
+                '}';
     }
-
-
 }

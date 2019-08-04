@@ -17,9 +17,6 @@
             <result property="ssex" column="Ssex"/>
         </collection>
     </resultMap>
-    <select id="findAllCouByCno" parameterType="Integer" resultType="com.baiyang.domain.Course">
-        select * from course
-    </select>
     <select id="findAllCou" resultType="com.baiyang.domain.Course">
         select * from course
     </select>
@@ -28,6 +25,9 @@
     </select>
     <select id="findScreByCno" parameterType="Integer" resultType="Double">
         SELECT ccredit FROM course WHERE course.CNo=#{cno}
+    </select>
+    <select id="findCouByCno" parameterType="Integer" resultType="com.baiyang.domain.Course">
+        SELECT * FROM course WHERE CNo=#{con}
     </select>
     <select id="findCouStuByCno" parameterType="Integer" resultMap="courseMap">
         SELECT student.*,course.CNo,course.Cname,course.Ccredit FROM course

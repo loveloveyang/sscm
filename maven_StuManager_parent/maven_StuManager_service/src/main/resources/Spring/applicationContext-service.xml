@@ -40,7 +40,7 @@
     <!--配置切面-->
     <aop:config>
         <!--execution([修饰符] 返回值类型 包名.类名.方法名(参数))-->
-        <aop:pointcut id="pointcut" expression="execution(* com.baiyang.service.serviceImpl.*.*(..))"/>
+        <aop:pointcut id="pointcut" expression="execution(* com.baiyang.service.impl.*.*(..))"/>
         <aop:advisor advice-ref="advice" pointcut-ref="pointcut"/>
     </aop:config>
     <!--service end-->
