@@ -1,6 +1,8 @@
 package com.baiyang.dao;
 
 import com.baiyang.domain.Course;
+import com.baiyang.domain.QueryResult;
+import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
@@ -13,7 +15,12 @@ public interface CourseDao {
      *
      * @return List<Course>
      */
-    public List<Course> findAllCou();
+    public List<Course> findAllCou(@Param("startNum") int startNum, @Param("endNum")int endNum);
+
+    /**
+     * 查找所有课程的记录数
+     */
+    public int findAllCouCount();
 
     /**
      * 根据学号查找该学生选的所有课程
@@ -39,10 +46,12 @@ public interface CourseDao {
      * @return Set<Course>
      */
     public Set<Course> findCouStuByCno(int cno);
+
     /**
      * 根据课程号查找该课程
      */
     public Course findCouByCno(int cno);
+
     /**
      * 更新课程
      *
@@ -68,5 +77,22 @@ public interface CourseDao {
      */
 
     public int saveCou(Course course);
+
+    /**
+     * 根据课程名查找该课程
+     */
+    public List<QueryResult> findCouByCname(String cname);
+    /**
+     * 根据课程学分查找该课程
+     */
+    public List<QueryResult> findCouByCcredit(Double ccredit);
+    /**
+     * 根据课程教室查找该课程
+     */
+    public List<QueryResult> findCouByCclassroom(String cclassroom);
+    /**
+     * 根据课程号查找该课程
+     */
+    public List<QueryResult> findCouByCno1(int cno1);
 
 }

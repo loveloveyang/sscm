@@ -7,7 +7,7 @@
 %>
 <html>
 <head>
-    <base href="<%=basePath%>">
+    <%--<base href="<%=basePath%>">--%>
     <meta charset="UTF-8">
     <title>学生选课信息管理系统</title>
     <meta http-equiv="pragma" content="no-cache">
@@ -58,8 +58,10 @@
                 <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2">
                     <a href="#">消息</a>
                 </button>
-
             </div>
+        </div>
+        <div class="top-right-info">
+            <p>亲爱的${student.sname}同学，下午好</p>
         </div>
     </div>
 </div>
@@ -79,23 +81,20 @@
             <div class="menu-content-top"></div>
             <div id="menu">
                 <hr>
-                <h1><a href=""> 主页 </a></h1>
+                <h1><a href="studentPage"> 主页 </a></h1>
                 <hr>
-                <h1><a> 个人信息 </a></h1>
+                <h1><a href="stuInfoPage"> 个人信息 </a></h1>
                 <hr>
-                <h1><a> 修改密码 </a></h1>
+                <h1><a href="updateStuPassPage"> 修改密码 </a></h1>
                 <hr>
-                <h1><a href="selectCouPage"> 选择课程 </a></h1>
+                <h1><a href="choiceCouPage"> 选择课程 </a></h1>
                 <hr>
-                <h1><a> 已选课程 </a></h1>
+                <h1><a href="showCouPage"> 已选课程 </a></h1>
                 <hr>
             </div>
         </div>
     </div>
     <div class="content-right-contain">
-        <div class="info">
-            <p>亲爱的${student.sname}同学，下午好</p>
-        </div>
         <div class="box">
             <div class="function"><p>[通知]选课系统已开放</p></div>
             <div class="form">

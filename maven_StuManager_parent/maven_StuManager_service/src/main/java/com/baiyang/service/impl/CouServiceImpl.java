@@ -2,21 +2,26 @@ package com.baiyang.service.impl;
 
 import com.baiyang.dao.CourseDao;
 import com.baiyang.domain.Course;
+import com.baiyang.domain.Page;
+import com.baiyang.domain.QueryResult;
 import com.baiyang.service.CouService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Set;
+
 @Service("couService")
 public class CouServiceImpl implements CouService {
     @Autowired
     private CourseDao courseDao;
 
     @Override
-    public List<Course> findAllCou() {
+    public List<Course> findAllCou(Page page, int pageNo, int pageSize) {
         System.out.println("查找所有课程-----业务层");
-        return courseDao.findAllCou();
+        int totleElements = courseDao.findAllCouCount();
+        page.setTotleElements(totleElements);
+        return courseDao.findAllCou(page.getStartNum(), page.getEndNum());
     }
 
     @Override
@@ -29,11 +34,6 @@ public class CouServiceImpl implements CouService {
     public double findScreByCno(int cno) {
         System.out.println("通过课程号查找该课程学分-----业务层");
         return courseDao.findScreByCno(cno);
-    }
-
-    @Override
-    public Course findCouByCno(int cno) {
-        return courseDao.findCouByCno(cno);
     }
 
     @Override
@@ -59,4 +59,34 @@ public class CouServiceImpl implements CouService {
         System.out.println("添加课程-----业务层");
         return courseDao.saveCou(course);
     }
+
+    @Override
+    public Course findCouByCno(int cno) {
+        return courseDao.findCouByCno(cno);
+    }
+
+
+    //课程查询   start
+
+    @Override
+    public List<QueryResult> findCouByCname(String cname) {
+        return courseDao.findCouByCname(cname);
+    }
+
+    @Override
+    public List<QueryResult> findCouByCcredit(Double ccredit) {
+        return courseDao.findCouByCcredit(ccredit);
+    }
+
+    @Override
+    public List<QueryResult> findCouByCclassroom(String cclassroom) {
+        return courseDao.findCouByCclassroom(cclassroom);
+    }
+
+    @Override
+    public List<QueryResult> findCouByCno1(int cno1) {
+        return courseDao.findCouByCno1(cno1);
+    }
+
+    //课程查询   end
 }

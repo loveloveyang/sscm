@@ -46,4 +46,9 @@ public class QueryServiceImpl implements QueryService {
         System.out.println("通过教室查询选课关系开始执行-----业务层");
         return queryDao.findAllByRoom(cclassroom);
     }
+
+    @Override
+    public List<QueryResult> findAllByCcredit(Double ccredit) {
+        return null;
+    }
 }

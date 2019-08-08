@@ -7,6 +7,10 @@ public class Teacher {
     private Integer tno;
     private String tname;
     private String tpassword;
+    private String tsex;
+    private String ttelephone;
+    private String tcollege;
+    private String temail;
     private Course course;
     private Set<Student> student;
 
@@ -60,6 +64,37 @@ public class Teacher {
         this.tpassword = tpassword;
     }
 
+    public String getTsex() {
+        return tsex;
+    }
+
+    public void setTsex(String tsex) {
+        this.tsex = tsex;
+    }
+
+    public String getTtelephone() {
+        return ttelephone;
+    }
+
+    public void setTtelephone(String ttelephone) {
+        this.ttelephone = ttelephone;
+    }
+
+    public String getTcollege() {
+        return tcollege;
+    }
+
+    public void setTcollege(String tcollege) {
+        this.tcollege = tcollege;
+    }
+
+    public String getTemail() {
+        return temail;
+    }
+
+    public void setTemail(String temail) {
+        this.temail = temail;
+    }
 
     public Course getCourse() {
         return course;
@@ -86,6 +121,10 @@ public class Teacher {
                 "tno=" + tno +
                 ", tname='" + tname + '\'' +
                 ", tpassword='" + tpassword + '\'' +
+                ", tsex='" + tsex + '\'' +
+                ", ttelephone='" + ttelephone + '\'' +
+                ", tcollege='" + tcollege + '\'' +
+                ", ttemail='" + temail + '\'' +
                 ", course=" + course +
                 ", student=" + student +
                 '}';

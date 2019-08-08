@@ -1,6 +1,8 @@
 package com.baiyang.service;
 
 
+import com.baiyang.domain.Page;
+import com.baiyang.domain.QueryResult;
 import com.baiyang.domain.Student;
 
 import java.util.Iterator;
@@ -12,12 +14,14 @@ import java.util.Set;
  */
 public interface StuService {
     /**
+     * 打印所有学生
      * @return
      */
 
-    public List<Student> findALLStudent();
+    public List<Student> findALLStudent(Page page, int pageNo, int pageSize);
 
     /**
+     * 查找学生选课的总学分
      * @param sno
      * @return
      */
@@ -51,10 +55,16 @@ public interface StuService {
     public int updateStu(Student student);
 
     /**
+     * 学生修改密码
+     * @param sno
+     * @param newPassword
+     * @return
+     */
+    public int updateStuPass(int sno,String newPassword);
+    /**
      * @param sno
      * @return
      */
-
     public int deleteStu(int sno);
 
     /**
@@ -63,6 +73,18 @@ public interface StuService {
      */
 
     public int savaStu(Student stu);
+
+    // 学生查询 start
+    public List<QueryResult> findStuBySno1(int sno1);
+
+    public List<QueryResult> findStuBySname(String sname);
+
+    public List<QueryResult> findStuBySclass(String sclass);
+
+    public List<QueryResult> findStuBySsex(String ssex);
+
+    public List<QueryResult> findScreBySno1(int sno1);
+    // 学生查询 end
 
 
 }

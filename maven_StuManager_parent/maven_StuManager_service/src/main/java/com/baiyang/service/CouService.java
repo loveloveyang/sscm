@@ -2,6 +2,8 @@ package com.baiyang.service;
 
 
 import com.baiyang.domain.Course;
+import com.baiyang.domain.Page;
+import com.baiyang.domain.QueryResult;
 
 import java.util.List;
 import java.util.Set;
@@ -13,7 +15,7 @@ public interface CouService {
      *
      * @return List<Course>
      */
-    public List<Course> findAllCou();
+    public List<Course> findAllCou(Page page, int pageNo, int pageSize);
 
     /**
      * 根据学号查找所有课程
@@ -31,10 +33,7 @@ public interface CouService {
      * @return double
      */
     public double findScreByCno(int cno);
-    /**
-     * 根据课程号查找该课程
-     */
-    public Course findCouByCno(int cno);
+
     /**
      * 根据课程号查询课程与学生
      *
@@ -68,4 +67,25 @@ public interface CouService {
      */
 
     public int saveCou(Course course);
+
+    /**
+     * 根据课程号查找该课程
+     */
+    public Course findCouByCno(int cno);
+    /**
+     * 根据课程名查找该课程
+     */
+    public List<QueryResult> findCouByCname(String cname);
+    /**
+     * 根据课程学分查找该课程
+     */
+    public List<QueryResult> findCouByCcredit(Double ccredit);
+    /**
+     * 根据课程教室查找该课程
+     */
+    public List<QueryResult> findCouByCclassroom(String cclassroom);
+    /**
+     * 根据课程号1查找该课程
+     */
+    public List<QueryResult> findCouByCno1(int cno1);
 }

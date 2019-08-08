@@ -17,8 +17,21 @@
             <result property="ssex" column="Ssex"/>
         </collection>
     </resultMap>
-    <select id="findAllCou" resultType="com.baiyang.domain.Course">
-        select * from course
+    <resultMap type="com.baiyang.domain.QueryResult" id="QueryMap">
+        <id property="sno" column="SNo"/>
+        <id property="cno" column="CNo"/>
+        <result property="sname" column="Sname"/>
+        <result property="ssex" column="Ssex"/>
+        <result property="sclass" column="Sclass"/>
+        <result property="cname" column="Cname"/>
+        <result property="ccredit" column="Ccredit"/>
+        <result property="cclassroom" column="Cclassroom"/>
+    </resultMap>
+    <select id="findAllCou" parameterType="Integer" resultType="com.baiyang.domain.Course">
+        select * from course limit #{startNum},#{endNum}
+    </select>
+    <select id="findAllCouCount" resultType="Integer">
+        select COUNT(*) from course
     </select>
     <select id="findCouBySno" parameterType="Integer" resultMap="courseMap">
         SELECT course.* FROM course,student,sc WHERE course.CNo=sc.CNo AND student.SNo=sc.SNo AND student.SNo=#{sno}
@@ -28,6 +41,18 @@
     </select>
     <select id="findCouByCno" parameterType="Integer" resultType="com.baiyang.domain.Course">
         SELECT * FROM course WHERE CNo=#{con}
+    </select>
+    <select id="findCouByCname" parameterType="String" resultMap="QueryMap">
+        SELECT * FROM course WHERE Cname=#{cname}
+    </select>
+    <select id="findCouByCcredit" parameterType="Double" resultMap="QueryMap">
+        SELECT * FROM course WHERE Ccredit=#{ccredit}
+    </select>
+    <select id="findCouByCclassroom" parameterType="String" resultMap="QueryMap">
+        SELECT * FROM course WHERE Cclassroom=#{cclassroom}
+    </select>
+    <select id="findCouByCno1" parameterType="Integer" resultMap="QueryMap">
+        SELECT * FROM course WHERE CNo=#{cno1}
     </select>
     <select id="findCouStuByCno" parameterType="Integer" resultMap="courseMap">
         SELECT student.*,course.CNo,course.Cname,course.Ccredit FROM course

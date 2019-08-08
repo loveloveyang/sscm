@@ -6,8 +6,36 @@ public class QueryResult {
     private int cno;
     private String sname;
     private String sclass;
+    private String ssex;
     private String cname;
+    private Double ccredit;
     private String cclassroom;
+
+    public String getSsex() {
+        return ssex;
+    }
+
+    public void setSsex(String ssex) {
+        this.ssex = ssex;
+    }
+
+    public Double getScredit() {
+        return scredit;
+    }
+
+    public void setScredit(Double scredit) {
+        this.scredit = scredit;
+    }
+
+    private Double scredit;
+
+    public Double getCcredit() {
+        return ccredit;
+    }
+
+    public void setCcredit(Double ccredit) {
+        this.ccredit = ccredit;
+    }
 
     public int getSno() {
         return sno;
@@ -64,8 +92,11 @@ public class QueryResult {
                 ", cno=" + cno +
                 ", sname='" + sname + '\'' +
                 ", sclass='" + sclass + '\'' +
+                ", ssex='" + ssex + '\'' +
                 ", cname='" + cname + '\'' +
+                ", ccredit=" + ccredit +
                 ", cclassroom='" + cclassroom + '\'' +
+                ", scredit=" + scredit +
                 '}';
     }
 }

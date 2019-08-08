@@ -29,7 +29,7 @@ public class StuDaoTest {
         System.out.println("查找所有学生测试");
         ApplicationContext ac=new ClassPathXmlApplicationContext("Spring/applicationContext-dao.xml");
         StudentDao studentDao =(StudentDao) ac.getBean("studentDao");
-        List<Student> student = studentDao.findALLStudent();
+        List<Student> student = studentDao.findALLStudent(0,10);
         for (Student s:student){
             System.out.println(s);
         }

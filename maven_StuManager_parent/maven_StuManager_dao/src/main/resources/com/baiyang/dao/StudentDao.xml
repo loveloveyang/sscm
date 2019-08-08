@@ -18,15 +18,37 @@
             <result property="cclassroom" column="Cclassroom"/>
         </collection>
     </resultMap>
-
+    <resultMap type="com.baiyang.domain.QueryResult" id="QueryMap">
+        <id property="sno" column="SNo"/>
+        <id property="cno" column="CNo"/>
+        <result property="sname" column="Sname"/>
+        <result property="ssex" column="Ssex"/>
+        <result property="sclass" column="Sclass"/>
+        <result property="cname" column="Cname"/>
+        <result property="ccredit" column="Ccredit"/>
+        <result property="cclassroom" column="Cclassroom"/>
+    </resultMap>
     <select id="loginStu" parameterType="com.baiyang.domain.Student" resultType="com.baiyang.domain.Student">
         SELECT * FROM student WHERE SNo=#{sno} AND Spassword=#{spassword}
     </select>
-    <select id="findALLStudent" resultMap="studentMap">
-       SELECT student.*,SUM(Ccredit) AS scredit FROM course,student,sc WHERE student.SNo=sc.SNo AND course.CNo=sc.CNo GROUP BY student.SNo
+    <select id="findALLStudent" parameterType="Integer" resultMap="studentMap">
+       SELECT student.*,SUM(Ccredit) AS scredit
+       FROM course,student,sc
+       WHERE student.SNo=sc.SNo AND course.CNo=sc.CNo
+       GROUP BY student.SNo limit #{startNum},#{endNum}
+    </select>
+    <select id="findStuCount" resultType="Integer">
+       SELECT COUNT(*)
+       FROM((
+           SELECT student.*,SUM(Ccredit) AS scredit FROM course,student,sc
+           WHERE student.SNo=sc.SNo AND course.CNo=sc.CNo
+           GROUP BY student.SNo
+           )AS a)
     </select>
     <select id="findScreBySno" parameterType="Integer" resultMap="studentMap">
-        SELECT student.* as sno,SUM(Ccredit) as  scredit  FROM course,sc,student WHERE  course.CNo=sc.CNo AND student.SNo=sc.SNo AND student.SNo=#{sno}
+        SELECT SUM(Ccredit) as  scredit
+        FROM  course,sc,student
+        WHERE  course.CNo=sc.CNo AND student.SNo=sc.SNo AND student.SNo=#{sno}
     </select>
     <select id="findStuBySno" parameterType="Integer" resultType="com.baiyang.domain.Student">
          SELECT student.*  FROM student WHERE  student.SNo=#{sno}
@@ -36,9 +58,42 @@
 			 LEFT JOIN sc ON sc.SNo=student.SNo
 			 LEFT JOIN course ON sc.CNo=course.CNo
     </select>
+    <select id="findStuBySno1" parameterType="Integer" resultMap="QueryMap">
+        SELECT student.* ,SUM(Ccredit) as  scredit
+        FROM course,sc,student
+        WHERE  course.CNo=sc.CNo AND student.SNo=sc.SNo AND student.SNo=#{sno1}
+        GROUP BY student.SNo
+    </select>
+    <select id="findStuBySname" parameterType="String" resultMap="QueryMap">
+        SELECT student.* ,SUM(Ccredit) as  scredit
+        FROM course,sc,student
+        WHERE  course.CNo=sc.CNo AND student.SNo=sc.SNo AND student.Sname=#{sname}
+        GROUP BY student.SNo
+    </select>
+    <select id="findStuBySclass" parameterType="String" resultMap="QueryMap">
+        SELECT student.* ,SUM(Ccredit) as  scredit
+        FROM course,sc,student
+        WHERE  course.CNo=sc.CNo AND student.SNo=sc.SNo AND student.Sclass=#{sclass}
+        GROUP BY student.SNo
+    </select>
+    <select id="findStuBySsex" parameterType="String" resultMap="QueryMap">
+        SELECT student.* ,SUM(Ccredit) as  scredit
+        FROM course,sc,student
+        WHERE  course.CNo=sc.CNo AND student.SNo=sc.SNo AND student.Ssex=#{ssex}
+        GROUP BY student.SNo
+    </select>
+    <select id="findScreBySno1" parameterType="Integer" resultMap="QueryMap">
+        SELECT student.* ,SUM(Ccredit) as  scredit
+        FROM course,sc,student
+        WHERE  course.CNo=sc.CNo AND student.SNo=sc.SNo AND student.SNo=#{sno1}
+        GROUP BY student.SNo
+    </select>
     <update id="updateStu" parameterType="com.baiyang.domain.Student">
 		update student set Sname=#{sname},Spassword=#{spassword},Sclass=#{sclass},Ssex=#{ssex} where SNo=#{sno}
 	</update>
+    <update id="updateStuPass">
+        UPDATE student  SET Spassword=#{newPassword} WHERE SNo=#{sno}
+    </update>
     <insert id="saveStu" parameterType="com.baiyang.domain.Student">
 		insert into student(Sname,Spassword,Sclass,Ssex) values(#{sname},#{spassword},#{sclass},#{ssex})
 	</insert>

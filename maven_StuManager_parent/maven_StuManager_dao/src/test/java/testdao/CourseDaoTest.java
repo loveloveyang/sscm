@@ -35,7 +35,7 @@ public class CourseDaoTest {
         System.out.println("查找所有课程测试");
         ApplicationContext ac = new ClassPathXmlApplicationContext("Spring/applicationContext-dao.xml");
         CourseDao courseDao = (CourseDao) ac.getBean("courseDao");
-        List<Course> allCou = courseDao.findAllCou();
+        List<Course> allCou = courseDao.findAllCou(1,10);
         for (Course cou : allCou
         ) {
             System.out.println(cou);

@@ -27,12 +27,6 @@
         <property name="prefix" value="/"/>
         <property name="suffix" value=".jsp"/>
     </bean>
-    <!--&lt;!&ndash;实现WEB-INF下jsp页面跳转&ndash;&gt;
-    <bean class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping" id="handlerMapping">
-        <property name="defaultHandler" >
-            <bean name="teaLogin" class="org.springframework.web.servlet.mvc.UrlFilenameViewController"></bean>
-        </property>
-    </bean>-->
 
     <!--释放静态资源-->
     <mvc:default-servlet-handler/>
