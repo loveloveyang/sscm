@@ -1,0 +1,7 @@
+com\baiyang\controller\TeaController.class
+com\baiyang\controller\DoLoginController.class
+com\baiyang\controller\QueryController.class
+com\baiyang\controller\ScController.class
+com\baiyang\controller\DoLogoutController.class
+com\baiyang\controller\CourseController.class
+com\baiyang\controller\StuController.class

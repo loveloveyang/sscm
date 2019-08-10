@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.baiyang.dao.TeacherDao">
+    <resultMap type="com.baiyang.domain.Teacher" id="TeacherMap">
+        <id property="tno" column="TNo"/>
+        <result property="tname" column="Tname"/>
+        <result property="tpassword" column="Tpassword"/>
+        <result property="tsex" column="Tsex"/>
+        <result property="ttelephone" column="Ttelephone"/>
+        <result property="tcollege" column="Tcollege"/>
+        <result property="temail" column="Temail"/>
+    </resultMap>
+    <select id="loginTea" parameterType="com.baiyang.domain.Teacher" resultType="com.baiyang.domain.Teacher">
+		SELECT * FROM teacher WHERE teacher.TNo=#{tno};
+	</select>
+	<select id="findAllTea" parameterType="Integer" resultType="com.baiyang.domain.Teacher">
+        select * from teacher limit #{startNum},#{endNum}
+    </select>
+    <select id="findAllTeaCount"  resultType="Integer">
+        select COUNT(*) from teacher
+    </select>
+    <select id="findTeaByTno" parameterType="Integer" resultType="com.baiyang.domain.Teacher">
+         SELECT * FROM teacher WHERE Tno=#{tno};
+    </select>
+    <select id="findAllTeaByTno" parameterType="Integer" resultMap="TeacherMap">
+         SELECT * FROM teacher WHERE Tno=#{tno};
+    </select>
+    <select id="findAllTeaByTname" parameterType="String" resultMap="TeacherMap">
+         SELECT * FROM teacher WHERE Tname=#{tname};
+    </select>
+    <select id="findAllTeaByTcollege" parameterType="String" resultMap="TeacherMap">
+         SELECT * FROM teacher WHERE Tcollege=#{tcollege};
+    </select>
+    <select id="findAllTeaByTsex" parameterType="String" resultMap="TeacherMap">
+         SELECT * FROM teacher WHERE Tsex=#{tsex};
+    </select>
+    <update id="updateTeaPass" >
+        UPDATE teacher  SET Tpassword=#{newTpassword} WHERE TNo=#{tno}
+    </update>
+    <insert id="savaTea" parameterType="com.baiyang.domain.Teacher">
+		insert into teacher(Tname,Tpassword,Tsex,Ttelephone,Tcollege,Temail) values(#{tname},#{tpassword},#{tsex},#{ttelephone},#{tcollege},#{temail})
+	</insert>
+    <update id="updateTea" parameterType="com.baiyang.domain.Teacher">
+		update teacher set Tname=#{tname},Tpassword=#{tpassword},Tsex=#{tsex},Ttelephone=#{ttelephone},Tcollege=#{tcollege},Temail=#{temail} where TNo=#{tno}
+	</update>
+    <delete id="deleteTea" parameterType="Integer">
+		delete from teacher where TNo=#{tno}
+	</delete>
+</mapper>

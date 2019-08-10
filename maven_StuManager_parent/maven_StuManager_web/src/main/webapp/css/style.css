@@ -1,0 +1,25 @@
+.checkbox1 {
+    position: relative;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.checkbox1 .login_radio{
+    margin-left: 55px;
+}
+#back_imgs{
+    height: 740px;
+    background-image: url(../imgs/a.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#login_parrent{
+    margin-left: 18.66666667%;
+    margin-top: 9px;
+}
+#remember_parent{
+    margin-top: 15PX;
+    margin-bottom: 2PX;
+    margin-left: 2px;
+}
+

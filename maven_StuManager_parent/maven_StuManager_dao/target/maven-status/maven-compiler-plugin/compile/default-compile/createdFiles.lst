@@ -1,0 +1,6 @@
+com\baiyang\domain\QueryResult.class
+com\baiyang\domain\Student.class
+com\baiyang\domain\Teacher.class
+com\baiyang\domain\Sc.class
+com\baiyang\domain\Course.class
+com\baiyang\domain\User.class

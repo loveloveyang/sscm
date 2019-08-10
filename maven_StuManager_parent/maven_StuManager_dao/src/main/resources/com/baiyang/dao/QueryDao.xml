@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.baiyang.dao.QueryDao">
+    <resultMap type="com.baiyang.domain.QueryResult" id="QueryMap">
+        <id property="sno" column="SNo"/>
+        <id property="cno" column="CNo"/>
+        <result property="sname" column="Sname"/>
+        <result property="ssex" column="Ssex"/>
+        <result property="sclass" column="Sclass"/>
+        <result property="cname" column="Cname"/>
+        <result property="ccredit" column="Ccredit"/>
+        <result property="cclassroom" column="Cclassroom"/>
+    </resultMap>
+    <select id="findAllBySno" parameterType="Integer" resultMap="QueryMap">
+	SELECT * FROM student,course,sc WHERE student.SNo=sc.SNo AND course.CNo=sc.CNo AND student.SNo=#{sno}
+</select>
+    <select id="findAllBySname" parameterType="String" resultMap="QueryMap">
+	SELECT * FROM student,course,sc WHERE student.SNo=sc.SNo AND course.CNo=sc.CNo AND student.Sname=#{sname}
+</select>
+    <select id="findAllBySclass" parameterType="String" resultMap="QueryMap">
+	SELECT * FROM student,course,sc WHERE student.SNo=sc.SNo AND course.CNo=sc.CNo AND student.Sclass=#{sclass}
+</select>
+    <select id="findAllByCname" parameterType="String" resultMap="QueryMap">
+	SELECT * FROM student,course,sc WHERE student.SNo=sc.SNo AND course.CNo=sc.CNo AND course.Cname=#{cname}
+</select>
+    <select id="findAllByCno" parameterType="Integer" resultMap="QueryMap">
+	SELECT * FROM student,course,sc WHERE student.SNo=sc.SNo AND course.CNo=sc.CNo AND course.CNo=#{cno}
+</select>
+    <select id="findAllByRoom" parameterType="String" resultMap="QueryMap">
+	SELECT * FROM student,course,sc WHERE student.SNo=sc.SNo AND course.CNo=sc.CNo AND course.Cclassroom=#{cclassroom}
+</select>
+</mapper>

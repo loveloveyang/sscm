@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.baiyang.dao.ScDao">
+    <select id="findScBySno" parameterType="Integer" resultType="com.baiyang.domain.Course">
+		SELECT course.* FROM course,student,sc WHERE sc.CNo=course.CNo AND sc.SNo=student.SNo AND student.SNo=#{sno}
+	</select>
+    <insert id="saveSc"  parameterType="list">
+        INSERT INTO sc(SNo,CNo) VALUES
+        <foreach collection="array" index="index" item="item" open="(" separator="," close=")">
+            #{item.sno},#{item.cno}
+        </foreach>
+    </insert>
+    <delete id="delectSc" parameterType="Integer" >
+		DELETE FROM sc WHERE sc.SNo=#{sno} AND sc.CNo=#{cno}
+	</delete>
+    <insert id="saveScBySnoCno" parameterType="Integer">
+        INSERT INTO sc(SNo,CNo) VALUE (#{sno},#{cno});
+    </insert>
+</mapper>
+

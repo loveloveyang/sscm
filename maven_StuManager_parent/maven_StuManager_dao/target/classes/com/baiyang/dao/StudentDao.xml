@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.baiyang.dao.StudentDao">
+
+    <resultMap id="studentMap" type="com.baiyang.domain.Student">
+        <id property="sno" column="SNo"></id>
+        <result property="sname" column="Sname"></result>
+        <result property="ssex" column="Ssex"></result>
+        <result property="spassword" column="Spassword"></result>
+        <result property="sclass" column="Sclass"></result>
+        <result property="scredit" column="scredit"></result>
+        <collection property="course" ofType="com.baiyang.domain.Course">
+            <id property="cno" column="CNo"/>
+            <result property="cname" column="Cname"/>
+            <result property="ccredit" column="Ccredit"/>
+            <result property="cclassroom" column="Cclassroom"/>
+        </collection>
+    </resultMap>
+    <resultMap type="com.baiyang.domain.QueryResult" id="QueryMap">
+        <id property="sno" column="SNo"/>
+        <id property="cno" column="CNo"/>
+        <result property="sname" column="Sname"/>
+        <result property="ssex" column="Ssex"/>
+        <result property="sclass" column="Sclass"/>
+        <result property="cname" column="Cname"/>
+        <result property="ccredit" column="Ccredit"/>
+        <result property="cclassroom" column="Cclassroom"/>
+    </resultMap>
+    <select id="loginStu" parameterType="com.baiyang.domain.Student" resultType="com.baiyang.domain.Student">
+        SELECT * FROM student WHERE SNo=#{sno} AND Spassword=#{spassword}
+    </select>
+    <select id="findALLStudent" parameterType="Integer" resultMap="studentMap">
+       SELECT student.*,COALESCE(SUM(ccredit),0) AS scredit
+       FROM course,student,sc
+       WHERE student.SNo=sc.SNo AND course.CNo=sc.CNo
+       GROUP BY student.SNo limit #{startNum},#{endNum}
+    </select>
+    <select id="findALLStudent1" parameterType="Integer" resultMap="studentMap">
+       SELECT * FROM student limit #{startNum},#{endNum}
+    </select>
+    <select id="findStuCount1" resultType="Integer">
+       SELECT COUNT(*) FROM student
+    </select>
+    <select id="findStuCount2" parameterType="Float" resultType="Integer">
+        SELECT COUNT(*) FROM
+        ((SELECT student.*,COALESCE(SUM(ccredit),0) AS scredit FROM course,student,sc
+        WHERE student.SNo=sc.SNo AND course.CNo=sc.CNo
+        GROUP BY student.SNo)AS a)
+        WHERE a.scredit &lt; #{minScredit}
+    </select>
+    <select id="findStuCount" resultType="Integer">
+       SELECT COUNT(*)
+       FROM((
+           SELECT student.*,COALESCE(SUM(ccredit),0) AS scredit FROM course,student,sc
+           WHERE student.SNo=sc.SNo AND course.CNo=sc.CNo
+           GROUP BY student.SNo
+           )AS a)
+    </select>
+    <select id="findScreBySno" parameterType="Integer" resultType="Double">
+        SELECT COALESCE(SUM(ccredit),0)
+        FROM  course,sc,student
+        WHERE  course.CNo=sc.CNo AND student.SNo=sc.SNo AND student.SNo=#{sno}
+    </select>
+    <select id="findStuBySno" parameterType="Integer" resultType="com.baiyang.domain.Student">
+         SELECT student.*  FROM student WHERE  student.SNo=#{sno}
+    </select>
+    <select id="findStuCou" resultMap="studentMap">
+        SELECT student.*,course.CNo,course.Cname,course.Ccredit FROM student
+			 LEFT JOIN sc ON sc.SNo=student.SNo
+			 LEFT JOIN course ON sc.CNo=course.CNo
+    </select>
+    <select id="findStuBySno1" parameterType="Integer" resultMap="QueryMap">
+        SELECT student.* ,SUM(Ccredit) as  scredit
+        FROM course,sc,student
+        WHERE  course.CNo=sc.CNo AND student.SNo=sc.SNo AND student.SNo=#{sno1}
+        GROUP BY student.SNo
+    </select>
+    <select id="findStuBySname" parameterType="String" resultMap="QueryMap">
+        SELECT student.* ,SUM(Ccredit) as  scredit
+        FROM course,sc,student
+        WHERE  course.CNo=sc.CNo AND student.SNo=sc.SNo AND student.Sname=#{sname}
+        GROUP BY student.SNo
+    </select>
+    <select id="findStuBySclass" parameterType="String" resultMap="QueryMap">
+        SELECT student.* ,SUM(Ccredit) as  scredit
+        FROM course,sc,student
+        WHERE  course.CNo=sc.CNo AND student.SNo=sc.SNo AND student.Sclass=#{sclass}
+        GROUP BY student.SNo
+    </select>
+    <select id="findStuBySsex" parameterType="String" resultMap="QueryMap">
+        SELECT student.* ,SUM(Ccredit) as  scredit
+        FROM course,sc,student
+        WHERE  course.CNo=sc.CNo AND student.SNo=sc.SNo AND student.Ssex=#{ssex}
+        GROUP BY student.SNo
+    </select>
+    <update id="updateStu" parameterType="com.baiyang.domain.Student">
+		update student set Sname=#{sname},Spassword=#{spassword},Sclass=#{sclass},Ssex=#{ssex} where SNo=#{sno}
+	</update>
+    <update id="updateStuPass">
+        UPDATE student  SET Spassword=#{newPassword} WHERE SNo=#{sno}
+    </update>
+    <insert id="saveStu" parameterType="com.baiyang.domain.Student">
+		insert into student(Sname,Spassword,Sclass,Ssex) values(#{sname},#{spassword},#{sclass},#{ssex})
+	</insert>
+    <delete id="deleteStu" parameterType="Integer">
+		delete from student where SNo=#{sno}
+	</delete>
+    <select id="findStuBySno2" parameterType="Integer" resultMap="studentMap">
+        SELECT * FROM student WHERE  student.SNo=#{sno}
+    </select>
+    <select id="findStuBySname2" parameterType="String" resultMap="studentMap">
+       SELECT * FROM student WHERE  student.Sname=#{sname}
+    </select>
+    <select id="findStuBySclass2" parameterType="String" resultMap="studentMap">
+       SELECT * FROM student WHERE  student.Sclass=#{sclass}
+    </select>
+    <select id="findStuBySsex2" parameterType="String" resultMap="studentMap">
+       SELECT * FROM student WHERE student.Ssex=#{ssex}
+    </select>
+</mapper>
