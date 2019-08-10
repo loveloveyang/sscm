@@ -44,11 +44,11 @@
                     <span class="caret"></span>
                 </button>
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                    <li><a href="#">账号设置</a></li>
-                    <li><a href="#">个人中心</a></li>
+                    <li><a href="updateStuPassPage">账号设置</a></li>
+                    <li><a href="stuInfoPage">个人中心</a></li>
                     <li><a href="#">帮助</a></li>
                     <li role="separator" class="divider"></li>
-                    <li><a href="#">注销</a></li>
+                    <li><a href="logout">注销</a></li>
                 </ul>
             </div>
         </div>
@@ -106,7 +106,7 @@
                             <td>课程编号</td>
                             <td>课程名称</td>
                             <td>课程学分</td>
-                            <td>课程学分</td>
+                            <td>课程教室</td>
                             <td>选课</td>
                         </tr>
                         <c:forEach items="${courses}" var="cou">

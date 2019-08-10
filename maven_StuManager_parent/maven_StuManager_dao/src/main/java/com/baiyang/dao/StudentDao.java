@@ -21,17 +21,40 @@ public interface StudentDao {
     public Student loginStu(Student student);
 
     /**
+     * 查找选课学生
+     *
+     * @return
+     */
+    public List<Student> findALLStudent(@Param("startNum") int startNum, @Param("endNum") int endNum);
+
+    /**
      * 查找所有学生
      *
      * @return
      */
-    public List<Student> findALLStudent(@Param("startNum") int startNum, @Param("endNum")int endNum);
+
+    public List<Student> findALLStudent1(@Param("startNum") int startNum, @Param("endNum") int endNum);
 
     /**
-     * 查询学生记录数
+     * 查询所有学生记录数
+     *
+     * @return
+     */
+    public int findStuCount1();
+
+    /**
+     * 查询选课学生记录数
+     *
      * @return
      */
     public int findStuCount();
+
+    /**
+     * 查询选课学生记录数（含最低学分）
+     *
+     * @return
+     */
+    public int findStuCount2(float minScredit);
 
     /**
      * 根据学号查找该学生（更新学生用）
@@ -58,11 +81,13 @@ public interface StudentDao {
 
     /**
      * 更改学生密码
+     *
      * @param sno
      * @param newPassword
      * @return
      */
-    public int updateStuPass(@Param("sno") int sno,@Param("newPassword") String newPassword);
+    public int updateStuPass(@Param("sno") int sno, @Param("newPassword") String newPassword);
+
     /**
      * 删除学生信息
      *
@@ -83,12 +108,13 @@ public interface StudentDao {
 
     /**
      * 查找某个学生所有课程的总学分
+     * COALESCE(SUM(ccredit),0)   coalesce()解释：返回参数中的第一个非空表达式（从左向右）
      *
      * @param sno
      * @return
      */
 
-    public Student findScreBySno(int sno);
+    public Double findScreBySno(int sno);
 
     // 学生查询 start
     public List<QueryResult> findStuBySno1(int sno1);
@@ -101,6 +127,18 @@ public interface StudentDao {
 
     public List<QueryResult> findScreBySno1(int sno1);
     // 学生查询 end
+
+    // 管理员查询学生 start
+    public List<QueryResult> findStuBySno2(int sno);
+
+    public List<QueryResult> findStuBySname2(String sname);
+
+    public List<QueryResult> findStuBySclass2(String sclass);
+
+    public List<QueryResult> findStuBySsex2(String ssex);
+
+
+    // 管理员查询学生 end
 
 }
 

@@ -41,9 +41,9 @@ public class StuDaoTest {
         System.out.println("查找某个学生的总学分测试");
         ApplicationContext ac=new ClassPathXmlApplicationContext("Spring/applicationContext-dao.xml");
         StudentDao studentDao =(StudentDao) ac.getBean("studentDao");
-        Student student = studentDao.findScreBySno(2016591102);
+        Double student = studentDao.findScreBySno(2016591102);
         System.out.println(student);
-        System.out.println("学号是："+student.getSno()+"该学生的总学分"+student.getScredit());
+        //System.out.println("学号是："+student.getSno()+"该学生的总学分"+student.getScredit());
         System.out.println("==========================================================================");
 
     }

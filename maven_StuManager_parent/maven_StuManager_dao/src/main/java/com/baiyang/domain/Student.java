@@ -10,7 +10,7 @@ public class Student {
     private String ssex;
 
     private double scredit=0.0;
-    public static float MinScore = 7;
+    public static float MinScore = 6;
     public static float MaxScore = 12;
     private Set<Course> course;
 
@@ -70,6 +70,7 @@ public class Student {
      */
 
     // Property accessors
+
     public Integer getSno() {
         return this.sno;
     }

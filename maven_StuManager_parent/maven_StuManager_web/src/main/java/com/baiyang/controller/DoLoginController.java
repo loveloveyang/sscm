@@ -1,5 +1,6 @@
 package com.baiyang.controller;
 
+import com.baiyang.domain.Admin;
 import com.baiyang.domain.Student;
 import com.baiyang.domain.Teacher;
 import com.baiyang.domain.User;
@@ -19,7 +20,7 @@ import org.springframework.web.bind.support.SessionStatus;
  * 用户登录
  */
 @Controller("doLoginController")
-@SessionAttributes(value = {"student", "teacher"}, types = {Student.class, Teacher.class})
+@SessionAttributes(value = {"student", "teacher","admin"}, types = {Student.class, Teacher.class,Admin.class})
 public class DoLoginController {
     @Autowired
     private LoginService loginService;
@@ -59,8 +60,20 @@ public class DoLoginController {
                     System.out.println("学生登录失败");
                     return "redirect:login.jsp";
                 }
+            } else if (type.equals("admin")) {
+                System.out.println("管理员的页面");
+                Admin admin1 = new Admin(userno,null,password,null);
+                Admin admin = loginService.loginAdmin(admin1);
+                model.addAttribute("admin", admin);
+                if (admin != null) {
+                    System.out.println("管理员登录成功");
+                    return "forward:adminPage";
+                } else {
+                    System.out.println("管理员登录失败");
+                    return "redirect:login.jsp";
+                }
             } else {
-                System.out.println("登录失败");
+                System.out.println("管理员登录失败");
                 return "redirect:login.jsp";
             }
         } catch (Exception e) {
@@ -69,14 +82,5 @@ public class DoLoginController {
             System.out.println("传递的参数可能为空");
             return "redirect:login.jsp";
         }
-
-
     }
-   /* 测试session是否有值
-   @RequestMapping(path = "/testclean")
-    public String testclean(ModelMap modelMap){
-        System.out.println("查看session中是否还有值："+modelMap.get("student"));
-        return "stu/student";
-    }*/
-
 }

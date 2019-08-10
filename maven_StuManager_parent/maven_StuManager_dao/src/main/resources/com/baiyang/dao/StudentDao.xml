@@ -32,21 +32,34 @@
         SELECT * FROM student WHERE SNo=#{sno} AND Spassword=#{spassword}
     </select>
     <select id="findALLStudent" parameterType="Integer" resultMap="studentMap">
-       SELECT student.*,SUM(Ccredit) AS scredit
+       SELECT student.*,COALESCE(SUM(ccredit),0) AS scredit
        FROM course,student,sc
        WHERE student.SNo=sc.SNo AND course.CNo=sc.CNo
        GROUP BY student.SNo limit #{startNum},#{endNum}
     </select>
+    <select id="findALLStudent1" parameterType="Integer" resultMap="studentMap">
+       SELECT * FROM student limit #{startNum},#{endNum}
+    </select>
+    <select id="findStuCount1" resultType="Integer">
+       SELECT COUNT(*) FROM student
+    </select>
+    <select id="findStuCount2" parameterType="Float" resultType="Integer">
+        SELECT COUNT(*) FROM
+        ((SELECT student.*,COALESCE(SUM(ccredit),0) AS scredit FROM course,student,sc
+        WHERE student.SNo=sc.SNo AND course.CNo=sc.CNo
+        GROUP BY student.SNo)AS a)
+        WHERE a.scredit &lt; #{minScredit}
+    </select>
     <select id="findStuCount" resultType="Integer">
        SELECT COUNT(*)
        FROM((
-           SELECT student.*,SUM(Ccredit) AS scredit FROM course,student,sc
+           SELECT student.*,COALESCE(SUM(ccredit),0) AS scredit FROM course,student,sc
            WHERE student.SNo=sc.SNo AND course.CNo=sc.CNo
            GROUP BY student.SNo
            )AS a)
     </select>
-    <select id="findScreBySno" parameterType="Integer" resultMap="studentMap">
-        SELECT SUM(Ccredit) as  scredit
+    <select id="findScreBySno" parameterType="Integer" resultType="Double">
+        SELECT COALESCE(SUM(ccredit),0)
         FROM  course,sc,student
         WHERE  course.CNo=sc.CNo AND student.SNo=sc.SNo AND student.SNo=#{sno}
     </select>
@@ -82,12 +95,6 @@
         WHERE  course.CNo=sc.CNo AND student.SNo=sc.SNo AND student.Ssex=#{ssex}
         GROUP BY student.SNo
     </select>
-    <select id="findScreBySno1" parameterType="Integer" resultMap="QueryMap">
-        SELECT student.* ,SUM(Ccredit) as  scredit
-        FROM course,sc,student
-        WHERE  course.CNo=sc.CNo AND student.SNo=sc.SNo AND student.SNo=#{sno1}
-        GROUP BY student.SNo
-    </select>
     <update id="updateStu" parameterType="com.baiyang.domain.Student">
 		update student set Sname=#{sname},Spassword=#{spassword},Sclass=#{sclass},Ssex=#{ssex} where SNo=#{sno}
 	</update>
@@ -100,4 +107,16 @@
     <delete id="deleteStu" parameterType="Integer">
 		delete from student where SNo=#{sno}
 	</delete>
+    <select id="findStuBySno2" parameterType="Integer" resultMap="studentMap">
+        SELECT * FROM student WHERE  student.SNo=#{sno}
+    </select>
+    <select id="findStuBySname2" parameterType="String" resultMap="studentMap">
+       SELECT * FROM student WHERE  student.Sname=#{sname}
+    </select>
+    <select id="findStuBySclass2" parameterType="String" resultMap="studentMap">
+       SELECT * FROM student WHERE  student.Sclass=#{sclass}
+    </select>
+    <select id="findStuBySsex2" parameterType="String" resultMap="studentMap">
+       SELECT * FROM student WHERE student.Ssex=#{ssex}
+    </select>
 </mapper>

@@ -45,11 +45,11 @@
                     <span class="caret"></span>
                 </button>
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                    <li><a href="#">账号设置</a></li>
-                    <li><a href="#">个人中心</a></li>
+                    <li><a href="updateStuPassPage">账号设置</a></li>
+                    <li><a href="stuInfoPage">个人中心</a></li>
                     <li><a href="#">帮助</a></li>
                     <li role="separator" class="divider"></li>
-                    <li><a href="#">注销</a></li>
+                    <li><a href="logout">注销</a></li>
                 </ul>
             </div>
         </div>
@@ -102,19 +102,24 @@
                 <div class="form_1">
                     <table class="info">
                         <tr>
+                            <td>姓名：</td>
                             <td><input class="text" type="text" value="${student.sname}" readonly="true"></td>
                         </tr>
                         <tr>
-                            <td><input class="text" type="text" value="学号：${student.sno}" readonly="true"></td>
+                            <td>学号：</td>
+                            <td><input class="text" type="text" value="${student.sno}" readonly="true"></td>
                         </tr>
                         <tr>
-                            <td><input class="text" type="text" value="性别：${student.ssex}" readonly="true"></td>
+                            <td>性别：</td>
+                            <td><input class="text" type="text" value="${student.ssex}" readonly="true"></td>
                         </tr>
                         <tr>
-                            <td><input class="text" type="text" value="班级：${student.sclass}" readonly="true"></td>
+                            <td>班级：</td>
+                            <td><input class="text" type="text" value="${student.sclass}" readonly="true"></td>
                         </tr>
                         <tr>
-                            <td><input class="text" type="text" value="总学分：${stuScre.scredit}" readonly="true"></td>
+                            <td>总学分：</td>
+                            <td><input class="text" type="text" value="${stuScre}" readonly="true"></td>
                         </tr>
                     </table>
                 </div>
