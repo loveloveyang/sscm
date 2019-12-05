@@ -9,7 +9,33 @@
     <bookmark url="file://$PROJECT_DIR$/maven_StuManager_dao/src/main/java/com/baiyang/domain/Teacher.java" line="12" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a9ccd8e-6620-495e-81fe-4bb53101ae43" name="Default Changelist" comment="" />
+    <list default="true" id="2a9ccd8e-6620-495e-81fe-4bb53101ae43" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../prictice_springdataTest/src/main/java/com/baiyang/dao/CustomerDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prictice_springdataTest/src/main/java/com/baiyang/dao/LinkManDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prictice_springdataTest/src/main/java/com/baiyang/domain/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prictice_springdataTest/src/main/java/com/baiyang/domain/LinkMan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven_StuManager_dao/src/main/java/com/baiyang/domain/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/maven_StuManager_dao/src/main/java/com/baiyang/domain/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven_StuManager_dao/src/main/java/com/baiyang/domain/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/maven_StuManager_dao/src/main/java/com/baiyang/domain/Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven_StuManager_dao/src/main/resources/Spring/applicationContext-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/maven_StuManager_dao/src/main/resources/Spring/applicationContext-dao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven_StuManager_dao/target/classes/Spring/applicationContext-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/maven_StuManager_dao/target/classes/Spring/applicationContext-dao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven_StuManager_dao/target/classes/com/baiyang/domain/Course.class" beforeDir="false" afterPath="$PROJECT_DIR$/maven_StuManager_dao/target/classes/com/baiyang/domain/Course.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven_StuManager_dao/target/classes/com/baiyang/domain/Teacher.class" beforeDir="false" afterPath="$PROJECT_DIR$/maven_StuManager_dao/target/classes/com/baiyang/domain/Teacher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven_StuManager_dao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/maven_StuManager_dao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven_StuManager_service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/maven_StuManager_service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven_StuManager_service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/maven_StuManager_service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven_StuManager_web/src/main/java/com/baiyang/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/maven_StuManager_web/src/main/java/com/baiyang/controller/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven_StuManager_web/src/main/resources/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/maven_StuManager_web/src/main/resources/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven_StuManager_web/src/main/webapp/admin/admin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/maven_StuManager_web/src/main/webapp/admin/admin.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven_StuManager_web/target/classes/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/maven_StuManager_web/target/classes/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven_StuManager_web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/maven_StuManager_web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven_StuManager_web/target/tomcat/work/Tomcat/localhost/maven_StuManager_web/org/apache/jsp/login_jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/maven_StuManager_web/target/tomcat/work/Tomcat/localhost/maven_StuManager_web/org/apache/jsp/login_jsp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven_StuManager_web/target/tomcat/work/Tomcat/localhost/maven_StuManager_web/org/apache/jsp/login_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/maven_StuManager_web/target/tomcat/work/Tomcat/localhost/maven_StuManager_web/org/apache/jsp/login_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven_StuManager_web/target/txManagerChild/WEB-INF/classes/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/maven_StuManager_web/target/txManagerChild/WEB-INF/classes/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven_StuManager_web/target/txManagerChild/WEB-INF/lib/maven_StuManager_dao-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/maven_StuManager_web/target/txManagerChild/WEB-INF/lib/maven_StuManager_dao-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven_StuManager_web/target/txManagerChild/WEB-INF/lib/maven_StuManager_service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/maven_StuManager_web/target/txManagerChild/WEB-INF/lib/maven_StuManager_service-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maven_StuManager_web/target/txManagerChild/tea/updateScredit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/maven_StuManager_web/target/txManagerChild/tea/updateScredit.jsp" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/maven_StuManager_dao/target/" />
@@ -1338,19 +1364,79 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/maven_StuManager_web/src/main/java/com/baiyang/controller/TeaController.java">
+        <entry file="file://$PROJECT_DIR$/maven_StuManager_dao/src/main/resources/com/baiyang/dao/CourseDao.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4798">
-              <caret line="15" column="45" lean-forward="true" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+            <state relative-caret-position="551">
+              <caret line="29" column="78" selection-start-line="29" selection-start-column="78" selection-end-line="29" selection-end-column="78" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/maven_StuManager_service/src/main/java/com/baiyang/service/ScService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/maven_StuManager_service/src/main/java/com/baiyang/service/CouService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/maven_StuManager_web/src/main/java/com/baiyang/controller/CourseController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/maven_StuManager_dao/src/main/resources/com/baiyang/dao/AdminDao.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/maven_StuManager_dao/src/main/java/com/baiyang/util/PageUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/maven_StuManager_web/src/main/java/com/baiyang/controller/ScController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/maven_StuManager_web/src/main/webapp/tea/updateScredit.jsp">
+        <entry file="file://$PROJECT_DIR$/maven_StuManager_web/src/main/java/com/baiyang/controller/AdminController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="144" column="6" lean-forward="true" selection-start-line="144" selection-start-column="6" selection-end-line="144" selection-end-column="6" />
+            <state relative-caret-position="2547">
+              <caret line="188" column="16" lean-forward="true" selection-start-line="188" selection-start-column="16" selection-end-line="188" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -1407,11 +1493,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/maven_StuManager_web/src/main/webapp/page/adminMenuPage.jsp" />
-        <option value="$PROJECT_DIR$/maven_StuManager_web/src/main/webapp/admin/admin.jsp" />
-        <option value="$PROJECT_DIR$/maven_StuManager_web/src/main/webapp/admin/choiceCou.jsp" />
-        <option value="$PROJECT_DIR$/maven_StuManager_web/src/main/webapp/admin/InsertCou.jsp" />
-        <option value="$PROJECT_DIR$/maven_StuManager_web/src/main/webapp/admin/InsertStu.jsp" />
         <option value="$PROJECT_DIR$/maven_StuManager_web/src/main/webapp/admin/InsertTea.jsp" />
         <option value="$PROJECT_DIR$/maven_StuManager_web/src/main/webapp/admin/selectCou.jsp" />
         <option value="$PROJECT_DIR$/maven_StuManager_web/src/main/webapp/admin/selectTea.jsp" />
@@ -1423,7 +1504,6 @@
         <option value="$PROJECT_DIR$/maven_StuManager_web/src/main/webapp/admin/Query.jsp" />
         <option value="$PROJECT_DIR$/maven_StuManager_web/src/main/webapp/css/style_admin.css" />
         <option value="$PROJECT_DIR$/maven_StuManager_web/src/main/webapp/admin/adminInfo.jsp" />
-        <option value="$PROJECT_DIR$/maven_StuManager_web/src/main/java/com/baiyang/controller/AdminController.java" />
         <option value="$PROJECT_DIR$/maven_StuManager_web/src/main/webapp/admin/courseQuery.jsp" />
         <option value="$PROJECT_DIR$/maven_StuManager_web/src/main/webapp/admin/studentQuery.jsp" />
         <option value="$PROJECT_DIR$/maven_StuManager_web/src/main/webapp/admin/selectStu.jsp" />
@@ -1458,6 +1538,12 @@
         <option value="$PROJECT_DIR$/maven_StuManager_dao/src/main/java/com/baiyang/dao/StudentDao.java" />
         <option value="$PROJECT_DIR$/maven_StuManager_web/src/main/java/com/baiyang/controller/TeaController.java" />
         <option value="$PROJECT_DIR$/maven_StuManager_web/src/main/webapp/tea/updateScredit.jsp" />
+        <option value="$PROJECT_DIR$/maven_StuManager_dao/src/main/java/com/baiyang/domain/Course.java" />
+        <option value="$PROJECT_DIR$/maven_StuManager_dao/src/main/java/com/baiyang/domain/Teacher.java" />
+        <option value="$PROJECT_DIR$/maven_StuManager_dao/src/main/resources/Spring/applicationContext-dao.xml" />
+        <option value="$PROJECT_DIR$/maven_StuManager_web/src/main/resources/springmvc.xml" />
+        <option value="$PROJECT_DIR$/maven_StuManager_web/src/main/webapp/admin/admin.jsp" />
+        <option value="$PROJECT_DIR$/maven_StuManager_web/src/main/java/com/baiyang/controller/AdminController.java" />
       </list>
     </option>
   </component>
@@ -1508,10 +1594,10 @@
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1448" />
-    <option name="y" value="96" />
-    <option name="width" value="1456" />
-    <option name="height" value="876" />
+    <option name="x" value="-10" />
+    <option name="y" value="45" />
+    <option name="width" value="1820" />
+    <option name="height" value="1095" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -1522,6 +1608,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -1532,127 +1619,7 @@
             <path>
               <item name="maven_StuManager_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="maven_StuManager_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="maven_StuManager_dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maven_StuManager_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maven_StuManager_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="maven_StuManager_dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maven_StuManager_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maven_StuManager_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="maven_StuManager_dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maven_StuManager_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maven_StuManager_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="maven_StuManager_dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maven_StuManager_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maven_StuManager_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="maven_StuManager_dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="baiyang" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maven_StuManager_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maven_StuManager_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="maven_StuManager_dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="baiyang" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maven_StuManager_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maven_StuManager_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="maven_StuManager_dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="baiyang" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maven_StuManager_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maven_StuManager_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="maven_StuManager_dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maven_StuManager_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maven_StuManager_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="maven_StuManager_dao" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maven_StuManager_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maven_StuManager_parent" type="462c0819:PsiDirectoryNode" />
               <item name="maven_StuManager_service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maven_StuManager_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maven_StuManager_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="maven_StuManager_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maven_StuManager_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maven_StuManager_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="maven_StuManager_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maven_StuManager_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maven_StuManager_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="maven_StuManager_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maven_StuManager_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maven_StuManager_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="maven_StuManager_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maven_StuManager_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maven_StuManager_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="maven_StuManager_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maven_StuManager_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maven_StuManager_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="maven_StuManager_service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="maven_StuManager_parent" type="b2602c69:ProjectViewProjectNode" />
@@ -1689,45 +1656,10 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="maven_StuManager_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maven_StuManager_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="maven_StuManager_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maven_StuManager_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maven_StuManager_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="maven_StuManager_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maven_StuManager_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maven_StuManager_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="maven_StuManager_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maven_StuManager_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="maven_StuManager_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="maven_StuManager_web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1738,15 +1670,18 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.29425287" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\IDEAProjects\maven_StuManager_parent\maven_StuManager_web\src\main\webapp\admin" />
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\IDEAProjects\maven_StuManager_parent\maven_StuManager_web\src\main\webapp\page" />
       <recent name="D:\IDEAProjects\maven_StuManager_parent\maven_StuManager_web\src\main\webapp" />
       <recent name="D:\IDEAProjects\maven_StuManager_parent\maven_StuManager_web\src\main\webapp\WEB-INF" />
-      <recent name="D:\IDEAProjects\maven_StuManager_parent\maven_StuManager_web\src\main\resources" />
+      <recent name="D:\IDEAProjects\maven_StuManager_parent\maven_StuManager_dao\src\main\resources\com\baiyang\dao" />
+      <recent name="D:\IDEAProjects\maven_StuManager_parent\maven_StuManager_dao\src\main\java\com\baiyang\dao" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.baiyang.util" />
@@ -1754,12 +1689,12 @@
       <recent name="com.baiyang.controller" />
       <recent name="com.baiyang.dao" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IDEAProjects\maven_StuManager_parent\maven_StuManager_web\src\main\webapp\admin" />
       <recent name="D:\IDEAProjects\maven_StuManager_parent\maven_StuManager_web\src\main\webapp\page" />
       <recent name="D:\IDEAProjects\maven_StuManager_parent\maven_StuManager_web\src\main\webapp" />
       <recent name="D:\IDEAProjects\maven_StuManager_parent\maven_StuManager_web\src\main\webapp\WEB-INF" />
-      <recent name="D:\IDEAProjects\maven_StuManager_parent\maven_StuManager_dao\src\main\resources\com\baiyang\dao" />
-      <recent name="D:\IDEAProjects\maven_StuManager_parent\maven_StuManager_dao\src\main\java\com\baiyang\dao" />
+      <recent name="D:\IDEAProjects\maven_StuManager_parent\maven_StuManager_web\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1976,7 +1911,29 @@
       <workItem from="1565138285666" duration="2555000" />
       <workItem from="1565224551887" duration="29847000" />
       <workItem from="1565312733247" duration="22042000" />
-      <workItem from="1565399142504" duration="5983000" />
+      <workItem from="1565399142504" duration="7515000" />
+      <workItem from="1565438576786" duration="34000" />
+      <workItem from="1565573636970" duration="2538000" />
+      <workItem from="1565615414270" duration="735000" />
+      <workItem from="1565661533950" duration="36000" />
+      <workItem from="1566027542736" duration="905000" />
+      <workItem from="1566203848151" duration="1084000" />
+      <workItem from="1566220651373" duration="1122000" />
+      <workItem from="1566226518676" duration="438000" />
+      <workItem from="1566265189217" duration="1437000" />
+      <workItem from="1566287280890" duration="1173000" />
+      <workItem from="1566351320517" duration="49000" />
+      <workItem from="1566459745151" duration="418000" />
+      <workItem from="1567594233198" duration="505000" />
+      <workItem from="1569326930256" duration="565000" />
+      <workItem from="1570960676736" duration="800000" />
+      <workItem from="1571044480106" duration="4254000" />
+      <workItem from="1571230018989" duration="1155000" />
+      <workItem from="1571712729931" duration="1197000" />
+      <workItem from="1571799106933" duration="4103000" />
+      <workItem from="1572157811563" duration="39000" />
+      <workItem from="1572447570575" duration="611000" />
+      <workItem from="1572521676198" duration="648000" />
     </task>
     <task id="LOCAL-00001" summary="模块划分成功，studao与Cousedao层测试成功">
       <created>1563885412863</created>
@@ -2042,7 +1999,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="239171000" />
+    <option name="totallyTimeSpent" value="264549000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2054,7 +2011,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1448" y="96" width="1456" height="876" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Capture Tool" order="1" />
@@ -2062,7 +2020,7 @@
       <window_info id="Favorites" order="3" sideWeight="0.5030303" side_tool="true" weight="0.25968435" />
       <window_info id="Web" order="4" side_tool="true" />
       <window_info id="Designer" order="5" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.4969697" visible="true" weight="0.23959827" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.4969697" visible="true" weight="0.19865772" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
@@ -2074,7 +2032,7 @@
       <window_info anchor="bottom" id="Spring" order="7" weight="0.3292683" />
       <window_info anchor="bottom" id="Message" order="8" />
       <window_info anchor="bottom" id="Find" order="9" weight="0.3292683" />
-      <window_info anchor="bottom" id="Run" order="10" weight="0.32791328" />
+      <window_info anchor="bottom" id="Run" order="10" visible="true" weight="0.1011396" />
       <window_info anchor="bottom" id="Debug" order="11" weight="0.39972898" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
@@ -2085,7 +2043,7 @@
       <window_info anchor="right" id="Database" order="2" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" weight="0.3292683" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.30939597" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.24964131" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
@@ -2106,285 +2064,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/maven_StuManager_web/src/main/webapp/admin/InsertTea.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="81" column="55" selection-start-line="81" selection-start-column="55" selection-end-line="81" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maven_StuManager_web/src/main/webapp/admin/selectCou.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="80" column="55" lean-forward="true" selection-start-line="80" selection-start-column="11" selection-end-line="80" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maven_StuManager_web/src/main/webapp/admin/updateAdminPass.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maven_StuManager_web/src/main/webapp/admin/updateCou.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="83" column="10" lean-forward="true" selection-start-line="83" selection-start-column="10" selection-end-line="83" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maven_StuManager_web/src/main/webapp/admin/updateStu.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maven_StuManager_web/src/main/webapp/admin/updateTea.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="89" column="59" lean-forward="true" selection-start-line="89" selection-start-column="59" selection-end-line="89" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maven_StuManager_web/src/main/webapp/css/style_admin.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1857">
-          <caret line="285" column="17" selection-start-line="285" selection-start-column="17" selection-end-line="285" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maven_StuManager_web/src/main/webapp/admin/Query.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="96" column="79" selection-start-line="96" selection-start-column="69" selection-end-line="96" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maven_StuManager_web/src/main/webapp/admin/adminInfo.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="96" column="28" lean-forward="true" selection-start-line="96" selection-start-column="28" selection-end-line="96" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maven_StuManager_web/src/main/java/com/baiyang/controller/AdminController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="133" column="43" selection-start-line="133" selection-start-column="43" selection-end-line="133" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maven_StuManager_web/src/main/webapp/admin/courseQuery.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="88" column="41" selection-start-line="88" selection-start-column="30" selection-end-line="88" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maven_StuManager_web/src/main/webapp/admin/selectTea.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="88" column="39" selection-start-line="88" selection-start-column="39" selection-end-line="88" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maven_StuManager_web/src/main/webapp/admin/teacherQuery.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="86" column="58" lean-forward="true" selection-end-line="159" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maven_StuManager_web/src/main/webapp/admin/selectStu.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="93" column="54" lean-forward="true" selection-start-line="93" selection-start-column="54" selection-end-line="93" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maven_StuManager_web/src/main/webapp/admin/studentQuery.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="116" column="58" selection-start-line="116" selection-start-column="58" selection-end-line="116" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maven_StuManager_service/src/main/java/com/baiyang/service/CouService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="26" column="36" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maven_StuManager_service/src/main/java/com/baiyang/service/impl/CouServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maven_StuManager_dao/src/main/java/com/baiyang/dao/CourseDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maven_StuManager_web/src/main/java/com/baiyang/controller/CourseController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="67" column="5" lean-forward="true" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maven_StuManager_dao/src/main/resources/com/baiyang/dao/CourseDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="40" column="13" lean-forward="true" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maven_StuManager_dao/src/test/java/testdao/StuDaoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="51" column="41" lean-forward="true" selection-start-line="51" selection-start-column="41" selection-end-line="51" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maven_StuManager_web/src/main/webapp/stu/choiceCou.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maven_StuManager_web/src/main/webapp/stu/showCou.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maven_StuManager_web/src/main/webapp/stu/student.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="52" column="21" lean-forward="true" selection-start-line="46" selection-start-column="16" selection-end-line="52" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maven_StuManager_web/src/main/webapp/stu/stuInfo.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maven_StuManager_web/src/main/webapp/stu/updateStuPass.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-57">
-          <caret line="48" column="59" lean-forward="true" selection-start-line="48" selection-start-column="59" selection-end-line="48" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maven_StuManager_web/src/main/webapp/page/adminMenuPage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maven_StuManager_web/src/main/java/com/baiyang/controller/StuController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-794">
-          <caret line="51" column="43" selection-start-line="51" selection-start-column="36" selection-end-line="51" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maven_StuManager_web/src/main/java/com/baiyang/controller/QueryController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1225">
-          <caret line="311" lean-forward="true" selection-start-line="311" selection-end-line="311" />
-          <folding>
-            <element signature="e#1779#1780#0" expanded="true" />
-            <element signature="e#1821#1822#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maven_StuManager_dao/src/main/java/com/baiyang/domain/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="65" column="5" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maven_StuManager_web/src/main/java/com/baiyang/controller/ScController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="60" lean-forward="true" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maven_StuManager_web/src/main/webapp/tea/courseQuery.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="84" column="53" selection-start-line="84" selection-start-column="53" selection-end-line="84" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maven_StuManager_web/src/main/webapp/tea/InsertCou.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="84" column="53" selection-start-line="84" selection-start-column="53" selection-end-line="84" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maven_StuManager_web/src/main/webapp/tea/InsertStu.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="84" column="53" selection-start-line="84" selection-start-column="53" selection-end-line="84" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maven_StuManager_web/src/main/webapp/tea/Query.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="537">
-          <caret line="87" column="53" selection-start-line="87" selection-start-column="53" selection-end-line="87" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maven_StuManager_web/src/main/webapp/tea/selectCou.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="536">
-          <caret line="84" column="53" selection-start-line="84" selection-start-column="53" selection-end-line="84" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maven_StuManager_web/src/main/webapp/tea/studentQuery.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="86" column="53" selection-start-line="86" selection-start-column="53" selection-end-line="86" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maven_StuManager_web/src/main/webapp/tea/teacher.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="87" column="29" selection-start-line="87" selection-start-column="29" selection-end-line="87" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/maven_StuManager_web/src/main/webapp/tea/teaInfo.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="645">
@@ -2474,23 +2153,422 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/maven_StuManager_web/src/main/java/com/baiyang/controller/TeaController.java">
+    <entry file="file://$PROJECT_DIR$/maven_StuManager_web/src/main/webapp/tea/updateScredit.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4798">
-          <caret line="15" column="45" lean-forward="true" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+        <state relative-caret-position="645">
+          <caret line="73" column="6" selection-start-line="73" selection-start-column="6" selection-end-line="73" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/maven_StuManager_web/src/main/webapp/tea/updateScredit.jsp">
+    <entry file="file://$PROJECT_DIR$/maven_StuManager_web/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="144" column="6" lean-forward="true" selection-start-line="144" selection-start-column="6" selection-end-line="144" selection-end-column="6" />
+        <state relative-caret-position="399">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maven_StuManager_dao/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maven_StuManager_service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4180">
+          <caret line="220" selection-start-line="220" selection-end-line="220" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maven_StuManager_web/src/main/webapp/tea/Query.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="98" column="52" selection-start-line="98" selection-start-column="52" selection-end-line="98" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.baiyang.domain.Admin">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.baiyang.domain.Admin</OriginalElement>
+          <nodes>
+            <node x="-302.4999999999999" y="-200.8333333333333">com.baiyang.domain.Admin</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.2000000000000002" x="-248.0" y="-29.0" />
+          <SelectedNodes>
+            <node>com.baiyang.domain.Admin</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maven_StuManager_dao/src/main/java/com/baiyang/domain/Admin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.baiyang.domain.Course">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.baiyang.domain.Course</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">com.baiyang.domain.Course</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="2.100000000000001" x="70.0" y="145.0" />
+          <SelectedNodes>
+            <node>com.baiyang.domain.Course</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maven_StuManager_dao/src/main/java/com/baiyang/domain/Course.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" selection-start-line="4" selection-end-line="76" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maven_StuManager_dao/src/main/java/com/baiyang/domain/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="514">
+          <caret line="137" column="1" lean-forward="true" selection-start-line="4" selection-end-line="137" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.baiyang.domain.Student">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.baiyang.domain.Student</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">com.baiyang.domain.Student</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="53.0" y="-27.0" />
+          <SelectedNodes>
+            <node>com.baiyang.domain.Student</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maven_StuManager_dao/src/main/java/com/baiyang/domain/Teacher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.baiyang.domain.Teacher">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.baiyang.domain.Teacher</OriginalElement>
+          <nodes>
+            <node x="-223.0" y="-201.0">com.baiyang.domain.Teacher</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.2000000000000002" x="-239.0" y="-55.0" />
+          <SelectedNodes>
+            <node>com.baiyang.domain.Teacher</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maven_StuManager_dao/src/main/java/com/baiyang/domain/QueryResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maven_StuManager_web/src/main/resources/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="29" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maven_StuManager_web/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="63" lean-forward="true" selection-start-line="8" selection-start-column="63" selection-end-line="8" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maven_StuManager_dao/src/main/resources/Spring/applicationContext-dao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="54" lean-forward="true" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maven_StuManager_web/src/main/java/com/baiyang/controller/TeaController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3857">
+          <caret line="217" column="67" selection-start-line="217" selection-start-column="67" selection-end-line="217" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maven_StuManager_web/src/main/java/com/baiyang/controller/QueryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4294">
+          <caret line="252" column="61" selection-start-line="252" selection-start-column="61" selection-end-line="252" selection-end-column="61" />
+          <folding>
+            <element signature="e#1779#1780#0" expanded="true" />
+            <element signature="e#1821#1822#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maven_StuManager_web/src/main/java/com/baiyang/controller/DoLogoutController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maven_StuManager_web/src/main/java/com/baiyang/controller/StuController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="779">
+          <caret line="51" column="43" selection-start-line="51" selection-start-column="36" selection-end-line="51" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maven_StuManager_web/src/main/webapp/admin/updateCou.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maven_StuManager_web/src/main/webapp/admin/admin.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-798">
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maven_StuManager_web/src/main/webapp/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="26" column="63" selection-start-line="26" selection-start-column="54" selection-end-line="26" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maven_StuManager_web/src/main/java/com/baiyang/controller/DoLoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-95">
+          <caret line="35" column="49" lean-forward="true" selection-start-line="35" selection-start-column="49" selection-end-line="35" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maven_StuManager_web/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="63" lean-forward="true" selection-start-line="9" selection-start-column="63" selection-end-line="9" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maven_StuManager_dao/src/main/java/com/baiyang/dao/AdminDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maven_StuManager_service/src/main/java/com/baiyang/service/impl/CouServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maven_StuManager_dao/src/main/java/com/baiyang/domain/Page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="116" column="23" selection-start-line="116" selection-start-column="16" selection-end-line="116" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maven_StuManager_dao/src/main/java/com/baiyang/dao/CourseDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="17" column="34" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maven_StuManager_dao/src/main/java/com/baiyang/domain/Sc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maven_StuManager_dao/src/main/resources/com/baiyang/dao/CourseDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="29" column="78" selection-start-line="29" selection-start-column="78" selection-end-line="29" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maven_StuManager_service/src/main/java/com/baiyang/service/ScService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maven_StuManager_service/src/main/java/com/baiyang/service/CouService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maven_StuManager_web/src/main/java/com/baiyang/controller/CourseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maven_StuManager_dao/src/main/resources/com/baiyang/dao/AdminDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maven_StuManager_dao/src/main/java/com/baiyang/util/PageUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maven_StuManager_web/src/main/java/com/baiyang/controller/ScController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maven_StuManager_web/src/main/java/com/baiyang/controller/AdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2547">
+          <caret line="188" column="16" lean-forward="true" selection-start-line="188" selection-start-column="16" selection-end-line="188" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>maven_StuManager_web:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.29425287" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.29425287" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>maven_StuManager_web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.29425287" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
@@ -2498,6 +2576,18 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: c3p0:c3p0:0.9.1.2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.29425287" />
               </list>
             </option>
           </splitter-proportions>

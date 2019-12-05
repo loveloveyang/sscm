@@ -174,7 +174,6 @@ public class AdminController {
                 System.out.println("查找所有老师异常");
                 e.printStackTrace();
                 return "forward:adminPage";
-
             }
         }
     }

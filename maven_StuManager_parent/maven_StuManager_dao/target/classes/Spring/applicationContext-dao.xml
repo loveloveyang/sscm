@@ -30,5 +30,4 @@
         <property name="basePackage" value="com.baiyang.dao"></property>
     </bean>
     <!--dao end-->
-    
 </beans>

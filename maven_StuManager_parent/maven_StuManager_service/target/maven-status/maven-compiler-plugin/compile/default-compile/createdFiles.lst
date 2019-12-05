@@ -1,7 +1,7 @@
-com\baiyang\service\impl\StuServiceImpl.class
 com\baiyang\service\StuService.class
+com\baiyang\service\LoginService.class
+com\baiyang\service\impl\StuServiceImpl.class
 com\baiyang\service\QueryService.class
 com\baiyang\service\ScService.class
-com\baiyang\service\LoginService.class
 com\baiyang\service\CouService.class
 com\baiyang\service\impl\LoginServiceImpl.class

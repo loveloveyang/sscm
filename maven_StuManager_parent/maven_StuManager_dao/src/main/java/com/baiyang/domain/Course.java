@@ -7,28 +7,15 @@ public class Course {
     private String cname;
     private String cclassroom;
     private double ccredit;
-
     private Set<Student> student;
 
-
-    // Constructors
-
-    /**
-     * default constructor
-     */
     public Course() {
     }
 
-    /**
-     * minimal constructor
-     */
     public Course(String cname) {
         this.cname = cname;
     }
 
-    /**
-     * full constructor
-     */
     public Course(String cname, double ccredit, String cclassroom) {
         this.cname = cname;
         this.ccredit = ccredit;
@@ -41,9 +28,6 @@ public class Course {
         this.ccredit = Ccredit;
         this.cclassroom = cclassroom;
     }
-
-
-    // Property accessors
 
     public Integer getCno() {
         return this.cno;
@@ -77,7 +61,6 @@ public class Course {
         this.student = student;
     }
 
-
     @Override
     public String toString() {
         return "Course [cno=" + cno + ", cname=" + cname + ", cclassroom=" + cclassroom + ", ccredit=" + ccredit
@@ -91,6 +74,4 @@ public class Course {
     public void setCclassroom(String cclassroom) {
         this.cclassroom = cclassroom;
     }
-
-
 }

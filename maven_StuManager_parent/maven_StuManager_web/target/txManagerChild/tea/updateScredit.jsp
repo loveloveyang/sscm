@@ -118,7 +118,6 @@
                     <tr>
                         <td>学生编号</td>
                         <td>学生名称</td>
-                        <td>登录密码</td>
                         <td>所在班级</td>
                         <td>学生性别</td>
                         <td>学分数</td>
@@ -128,7 +127,6 @@
                             <tr>
                                 <td>${stu.sno}</td>
                                 <td>${stu.sname}</td>
-                                <td>${stu.spassword}</td>
                                 <td>${stu.sclass}</td>
                                 <td>${stu.ssex}</td>
                                 <td>${stu.scredit}</td>
